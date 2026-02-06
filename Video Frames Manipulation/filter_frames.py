@@ -4,7 +4,7 @@ from PIL import Image
 backup_folder = "Video Frames Manipulation/frames_backup"
 working_folder = "Video Frames Manipulation/frames_filtered"
 
-generate_frames = False
+generate_frames = True
 generate_video = False
 generate_specs = True
 
@@ -21,7 +21,7 @@ def returnContents(folder):
     file_list.sort()
     return file_list
 
-
+f""
 # Remove and Clear working folder to prepare for file addition
 
 

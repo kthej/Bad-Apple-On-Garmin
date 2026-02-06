@@ -91,6 +91,9 @@ for chapter in range(0, total_frames // frames_per_font):
 
     current_section_file.write(f"info face=\"section_{chapter}\" size={height} bold=0 italic=0 charset=\"\" unicode=1 stretchH={width} smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0\n")
     current_section_file.write(f"common lineHeight={height} base={height} scaleW={width} scaleH={height * frames_per_font} pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0\n")
+    current_section_file.write(f"page id=0 file=\"section_{chapter}.png\"\n")
+    current_section_file.write(f"chars count={frames_per_font}\n")
+    
     image_sheet = Image.new("1",(width, height * frames_per_font))
 
     y_val = 0
@@ -103,7 +106,7 @@ for chapter in range(0, total_frames // frames_per_font):
     for file in returnContents(working_folder)[start_slice:end_slice]:
        
         image_sheet.paste(Image.open(f"{working_folder}/{file}"),(0,y_val))
-
+        current_section_file.write(f"char id={unicode_index}   x=0     y={y_val}     width={width}  height={height}  xoffset=0     yoffset=0     xadvance={width}  page=0  chnl=15\n")
         y_val += height
         unicode_index += 1
     

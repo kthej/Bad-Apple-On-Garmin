@@ -1,0 +1,2 @@
+1. Filter out images from original frames folder, scale down to 5fps
+2. Translate chunks of 200 frames

@@ -15,7 +15,7 @@ class Bad_Apple_AppApp extends Application.AppBase {
 
     // onStop() is called when your application is exiting
     function onStop(state as Dictionary?) as Void {
-        
+
     }
 
     // Return the initial view of your application here
@@ -27,4 +27,24 @@ class Bad_Apple_AppApp extends Application.AppBase {
 
 function getApp() as Bad_Apple_AppApp {
     return Application.getApp() as Bad_Apple_AppApp;
+}
+
+class Bad_Apple_AppDelegate extends WatchUi.BehaviorDelegate {
+
+    function initialize() {
+        BehaviorDelegate.initialize();
+    }
+
+    function onBack() as Boolean {
+        
+        System.exit();
+    }
+
+
+    function onMenu() as Boolean { 
+    
+      animationTimer = 0;
+      return true;
+    }
+
 }

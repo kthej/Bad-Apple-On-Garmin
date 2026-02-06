@@ -31,8 +31,8 @@ def returnContents(folder):
 # Video and Frames Configuration
 
 framerate = 5
-width = 100
-height = 75
+width = 160
+height = 120
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 output_video = cv2.VideoWriter("Video Frames Manipulation/rendered_videos/bad_apple.mp4", fourcc, framerate, (width,height))
 

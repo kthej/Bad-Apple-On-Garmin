@@ -2,52 +2,6 @@
 import Toybox.Lang;
 [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 4; @symbol_classdef = [Bad_Apple_AppDelegate,4,6,27]; @symbol_extends<0> = [WatchUi,4,36,43]; @symbol_extends<1> = [BehaviorDelegate,4,44,60]; ]
-class Bad_Apple_AppDelegate extends WatchUi.BehaviorDelegate {
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 4; ]
-    <init> {
-    }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 4; ]
-    static
-    <init> {
-    }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
-    function initialize() as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppDelegate_mc_6_26_8_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc" 7 8 ]
-        symbol [ BehaviorDelegate %tmp.2 7 8 24 ];
-        %tmp.2 = getv ? :BehaviorDelegate;
-        symbol [ initialize %tmp.3 7 25 35 ];
-        %tmp.3 = getv function %tmp.2 :initialize;
-        invoke %tmp.2 %tmp.3();
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppDelegate_mc_6_26_8_4_stop:
-    }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 10; @symbol_functiondef = [onBack,10,13,19]; @symbol_return<0> = [Boolean,10,25,32]; ]
-    function onBack() as Boolean {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppDelegate_mc_10_33_13_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc" 12 8 ]
-        symbol [ System %tmp.2 12 8 14 ];
-        %tmp.2 = getv ? :System;
-        symbol [ exit %tmp.3 12 15 19 ];
-        %tmp.3 = getv function %tmp.2 :exit;
-        invoke %tmp.2 %tmp.3();
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppDelegate_mc_10_33_13_4_stop:
-    }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 16; @symbol_functiondef = [onMenu,16,13,19]; @symbol_return<0> = [Boolean,16,25,32]; ]
-    function onMenu() as Boolean {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppDelegate_mc_16_33_20_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc" 18 6 ]
-        symbol [ $ %tmp.1 18 6 7 ];
-        %tmp.1 = getm $;
-        %tmp.2 = 0;
-        symbol [ animationTimer ? 18 8 22 ];
-        putv %tmp.1 :animationTimer %tmp.2;
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc" 19 6 ]
-        %tmp.3 = true;
-        ret %tmp.3;
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppDelegate_mc_16_33_20_4_stop:
-    }
-}
 [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppDelegate.mc"; @line = 1; ]
 <init> {
 }

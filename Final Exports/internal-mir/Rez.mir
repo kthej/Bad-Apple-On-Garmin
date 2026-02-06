@@ -1,0 +1,1817 @@
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [id_monkey,9,27,36]; @symbol_type<0> = [ResourceId,9,40,50]; ]
+        var id_monkey as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 13; @symbol_moduledef = [Fonts,13,11,16]; ]
+    module Fonts {
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [VideoFont0,14,27,37]; @symbol_type<0> = [ResourceId,14,41,51]; ]
+        var VideoFont0 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [VideoFont1,15,27,37]; @symbol_type<0> = [ResourceId,15,41,51]; ]
+        var VideoFont1 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [VideoFont2,16,27,37]; @symbol_type<0> = [ResourceId,16,41,51]; ]
+        var VideoFont2 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [VideoFont3,17,27,37]; @symbol_type<0> = [ResourceId,17,41,51]; ]
+        var VideoFont3 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [VideoFont4,18,27,37]; @symbol_type<0> = [ResourceId,18,41,51]; ]
+        var VideoFont4 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [VideoFont5,19,27,37]; @symbol_type<0> = [ResourceId,19,41,51]; ]
+        var VideoFont5 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [VideoFont6,20,27,37]; @symbol_type<0> = [ResourceId,20,41,51]; ]
+        var VideoFont6 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [VideoFont7,21,27,37]; @symbol_type<0> = [ResourceId,21,41,51]; ]
+        var VideoFont7 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [VideoFont8,22,27,37]; @symbol_type<0> = [ResourceId,22,41,51]; ]
+        var VideoFont8 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [VideoFont9,23,27,37]; @symbol_type<0> = [ResourceId,23,41,51]; ]
+        var VideoFont9 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [VideoFont10,24,27,38]; @symbol_type<0> = [ResourceId,24,42,52]; ]
+        var VideoFont10 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [VideoFont11,25,27,38]; @symbol_type<0> = [ResourceId,25,42,52]; ]
+        var VideoFont11 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [VideoFont12,26,27,38]; @symbol_type<0> = [ResourceId,26,42,52]; ]
+        var VideoFont12 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [VideoFont13,27,27,38]; @symbol_type<0> = [ResourceId,27,42,52]; ]
+        var VideoFont13 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [VideoFont14,28,27,38]; @symbol_type<0> = [ResourceId,28,42,52]; ]
+        var VideoFont14 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [VideoFont15,29,27,38]; @symbol_type<0> = [ResourceId,29,42,52]; ]
+        var VideoFont15 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [VideoFont16,30,27,38]; @symbol_type<0> = [ResourceId,30,42,52]; ]
+        var VideoFont16 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [VideoFont17,31,27,38]; @symbol_type<0> = [ResourceId,31,42,52]; ]
+        var VideoFont17 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [VideoFont18,32,27,38]; @symbol_type<0> = [ResourceId,32,42,52]; ]
+        var VideoFont18 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [VideoFont19,33,27,38]; @symbol_type<0> = [ResourceId,33,42,52]; ]
+        var VideoFont19 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [VideoFont20,34,27,38]; @symbol_type<0> = [ResourceId,34,42,52]; ]
+        var VideoFont20 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [VideoFont21,35,27,38]; @symbol_type<0> = [ResourceId,35,42,52]; ]
+        var VideoFont21 as ResourceId;
+    }
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 38; @symbol_moduledef = [Layouts,38,11,18]; ]
+    module Layouts {
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 38; ]
+        <init> {
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 39; @symbol_functiondef = [MainLayout,39,17,27]; @symbol_param<0> = [dc,39,28,30]; @symbol_param<0>_type<0> = [Graphics,39,34,42]; @symbol_param<0>_type<1> = [Dc,39,43,45]; @symbol_return<0> = [Array,39,50,55]; @symbol_return<1> = [WatchUi,39,56,63]; @symbol_return<2> = [Drawable,39,64,72]; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 40 12 ]
+            [ "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_start" "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_stop" ]
+            %rez_cmp_local_var_dc_getWidth.1 = local;
+            symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.1 40 16 45 ];
+            %tmp.1 = lgetv %dc;
+            symbol [ dc %tmp.1 40 48 50 ];
+            symbol [ getWidth %tmp.2 40 51 59 ];
+            %tmp.2 = getv function %tmp.1 :getWidth;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
+            symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.1 40 16 45 ];
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 42 12 ]
+            [ "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_start" "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_stop" ]
+            %rez_cmp_local_text_1193959466.2 = local;
+            symbol [ rez_cmp_local_text_1193959466 %rez_cmp_local_text_1193959466.2 42 16 45 ];
+            symbol [ WatchUi %tmp.6 42 52 59 ];
+            %tmp.6 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.7 42 60 64 ];
+            %tmp.7 = getv function ? %tmp.6 :Text;
+            %tmp.8 = newd 6;
+            %tmp.10 = const :color;
+            symbol [ color %tmp.10 42 67 72 const ];
+            symbol [ Graphics %tmp.11 42 74 82 ];
+            %tmp.11 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.12 42 83 94 ];
+            %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+            %tmp.13 = dup %tmp.8;
+            %tmp.14 = aputv %tmp.13 %tmp.10 %tmp.12;
+            %tmp.16 = const :locX;
+            symbol [ locX %tmp.16 42 97 101 const ];
+            %tmp.17 = lgetv %rez_cmp_local_var_dc_getWidth.1;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.17 42 104 133 ];
+            %tmp.18 = 0.5;
+            %tmp.19 = mul %tmp.17 %tmp.18;
+            %tmp.20 = dup %tmp.14;
+            %tmp.21 = aputv %tmp.20 %tmp.16 %tmp.19;
+            %tmp.23 = const :locY;
+            symbol [ locY %tmp.23 42 143 147 const ];
+            %tmp.24 = 5;
+            %tmp.25 = dup %tmp.21;
+            %tmp.26 = aputv %tmp.25 %tmp.23 %tmp.24;
+            %tmp.28 = const :text;
+            symbol [ text %tmp.28 42 153 157 const ];
+            symbol [ $ %tmp.29 42 159 160 ];
+            %tmp.29 = getm $;
+            symbol [ Rez %tmp.30 42 161 164 ];
+            %tmp.30 = getv %tmp.29 :Rez;
+            symbol [ Strings %tmp.31 42 165 172 ];
+            %tmp.31 = getv %tmp.30 :Strings;
+            symbol [ prompt %tmp.32 42 173 179 ];
+            %tmp.32 = getv %tmp.31 :prompt;
+            %tmp.33 = dup %tmp.26;
+            %tmp.34 = aputv %tmp.33 %tmp.28 %tmp.32;
+            %tmp.36 = const :justification;
+            symbol [ justification %tmp.36 42 182 195 const ];
+            symbol [ Graphics %tmp.37 42 197 205 ];
+            %tmp.37 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.38 42 206 225 ];
+            %tmp.38 = getv %tmp.37 :TEXT_JUSTIFY_CENTER;
+            %tmp.39 = dup %tmp.34;
+            %tmp.40 = aputv %tmp.39 %tmp.36 %tmp.38;
+            %tmp.42 = const :font;
+            symbol [ font %tmp.42 42 228 232 const ];
+            symbol [ Graphics %tmp.43 42 234 242 ];
+            %tmp.43 = getm $.Toybox.Graphics;
+            symbol [ FONT_MEDIUM %tmp.44 42 243 254 ];
+            %tmp.44 = getv %tmp.43 :FONT_MEDIUM;
+            %tmp.45 = dup %tmp.40;
+            %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+            %tmp.4 = newc %tmp.7 (%tmp.46);
+            lputv %rez_cmp_local_text_1193959466.2 %tmp.4;
+            symbol [ rez_cmp_local_text_1193959466 %rez_cmp_local_text_1193959466.2 42 16 45 ];
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 44 12 ]
+            [ "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_start" "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_stop" ]
+            %rez_cmp_local_bitmap_id_monkey.3 = local;
+            symbol [ rez_cmp_local_bitmap_id_monkey %rez_cmp_local_bitmap_id_monkey.3 44 16 46 ];
+            symbol [ WatchUi %tmp.49 44 53 60 ];
+            %tmp.49 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.50 44 61 67 ];
+            %tmp.50 = getv function ? %tmp.49 :Bitmap;
+            %tmp.51 = newd 4;
+            %tmp.53 = const :identifier;
+            symbol [ identifier %tmp.53 44 70 80 const ];
+            %tmp.54 = "id_monkey";
+            %tmp.55 = dup %tmp.51;
+            %tmp.56 = aputv %tmp.55 %tmp.53 %tmp.54;
+            %tmp.58 = const :rezId;
+            symbol [ rezId %tmp.58 44 96 101 const ];
+            symbol [ $ %tmp.59 44 103 104 ];
+            %tmp.59 = getm $;
+            symbol [ Rez %tmp.60 44 105 108 ];
+            %tmp.60 = getv %tmp.59 :Rez;
+            symbol [ Drawables %tmp.61 44 109 118 ];
+            %tmp.61 = getv %tmp.60 :Drawables;
+            symbol [ id_monkey %tmp.62 44 119 128 ];
+            %tmp.62 = getv %tmp.61 :id_monkey;
+            %tmp.63 = dup %tmp.56;
+            %tmp.64 = aputv %tmp.63 %tmp.58 %tmp.62;
+            %tmp.66 = const :locX;
+            symbol [ locX %tmp.66 44 131 135 const ];
+            symbol [ WatchUi %tmp.67 44 137 144 ];
+            %tmp.67 = getm $.Toybox.WatchUi;
+            symbol [ LAYOUT_HALIGN_CENTER %tmp.68 44 145 165 ];
+            %tmp.68 = getv %tmp.67 :LAYOUT_HALIGN_CENTER;
+            %tmp.69 = dup %tmp.64;
+            %tmp.70 = aputv %tmp.69 %tmp.66 %tmp.68;
+            %tmp.72 = const :locY;
+            symbol [ locY %tmp.72 44 168 172 const ];
+            %tmp.73 = 30;
+            %tmp.74 = dup %tmp.70;
+            %tmp.75 = aputv %tmp.74 %tmp.72 %tmp.73;
+            %tmp.47 = newc %tmp.50 (%tmp.75);
+            lputv %rez_cmp_local_bitmap_id_monkey.3 %tmp.47;
+            symbol [ rez_cmp_local_bitmap_id_monkey %rez_cmp_local_bitmap_id_monkey.3 44 16 46 ];
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 45 12 ]
+            %tmp.76 = lgetv %rez_cmp_local_bitmap_id_monkey.3;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.76 45 12 42 ];
+            symbol [ setLocation %tmp.77 45 43 54 ];
+            %tmp.77 = getv function %tmp.76 :setLocation;
+            %tmp.78 = lgetv %rez_cmp_local_var_dc_getWidth.1;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.78 45 57 86 ];
+            %tmp.79 = lgetv %rez_cmp_local_bitmap_id_monkey.3;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.79 45 89 119 ];
+            symbol [ width %tmp.80 45 120 125 ];
+            %tmp.80 = getv %tmp.79 :width;
+            %tmp.81 = sub %tmp.78 %tmp.80;
+            %tmp.82 = 0.5;
+            %tmp.83 = mul %tmp.81 %tmp.82;
+            %tmp.84 = lgetv %rez_cmp_local_bitmap_id_monkey.3;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.84 45 135 165 ];
+            symbol [ locY %tmp.85 45 166 170 ];
+            %tmp.85 = getv %tmp.84 :locY;
+            invoke %tmp.76 %tmp.77(%tmp.83, %tmp.85);
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 47 12 ]
+            %tmp.86 = newa 2 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.86 47 86 91 ];
+            symbol [ WatchUi %tmp.86 47 92 99 ];
+            symbol [ Drawable %tmp.86 47 100 108 ];
+            %tmp.87 = lgetv %rez_cmp_local_text_1193959466.2;
+            symbol [ rez_cmp_local_text_1193959466 %tmp.87 47 20 49 ];
+            %tmp.88 = dup %tmp.86;
+            %tmp.89 = aputv %tmp.88 0 %tmp.87;
+            %tmp.90 = lgetv %rez_cmp_local_bitmap_id_monkey.3;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.90 47 51 81 ];
+            %tmp.91 = dup %tmp.89;
+            %tmp.92 = aputv %tmp.91 1 %tmp.90;
+            ret %tmp.92;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_39_74_48_8_stop:
+        }
+    }
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 51; @symbol_moduledef = [Menus,51,11,16]; ]
+    module Menus {
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 51; ]
+        <init> {
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 52; @symbol_classdef = [MainMenu,52,14,22]; @symbol_extends<0> = [WatchUi,52,31,38]; @symbol_extends<1> = [Menu,52,39,43]; ]
+        class MainMenu extends WatchUi.Menu {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 52; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 52; ]
+            static
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 53; @symbol_functiondef = [initialize,53,21,31]; ]
+            function initialize() as Void {
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_53_34_57_12_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 54 16 ]
+                symbol [ Menu %tmp.2 54 16 20 ];
+                %tmp.2 = getv ? :Menu;
+                symbol [ initialize %tmp.3 54 21 31 ];
+                %tmp.3 = getv function %tmp.2 :initialize;
+                invoke %tmp.2 %tmp.3();
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 55 16 ]
+                %tmp.4 = self;
+                symbol [ addItem %tmp.5 55 16 23 ];
+                %tmp.5 = getv function %tmp.4 :addItem;
+                symbol [ WatchUi %tmp.6 55 25 32 ];
+                %tmp.6 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.7 55 33 45 ];
+                %tmp.7 = getv function %tmp.6 :loadResource;
+                symbol [ $ %tmp.8 55 46 47 ];
+                %tmp.8 = getm $;
+                symbol [ Rez %tmp.9 55 48 51 ];
+                %tmp.9 = getv %tmp.8 :Rez;
+                symbol [ Strings %tmp.10 55 52 59 ];
+                %tmp.10 = getv %tmp.9 :Strings;
+                symbol [ menu_label_1 %tmp.11 55 60 72 ];
+                %tmp.11 = getv %tmp.10 :menu_label_1;
+                %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+                %tmp.13 = as %tmp.12 String;
+                symbol [ String %tmp.13 55 77 83 ];
+                %tmp.15 = const :item_1;
+                symbol [ item_1 %tmp.15 55 87 93 const ];
+                invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 56 16 ]
+                %tmp.16 = self;
+                symbol [ addItem %tmp.17 56 16 23 ];
+                %tmp.17 = getv function %tmp.16 :addItem;
+                symbol [ WatchUi %tmp.18 56 25 32 ];
+                %tmp.18 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.19 56 33 45 ];
+                %tmp.19 = getv function %tmp.18 :loadResource;
+                symbol [ $ %tmp.20 56 46 47 ];
+                %tmp.20 = getm $;
+                symbol [ Rez %tmp.21 56 48 51 ];
+                %tmp.21 = getv %tmp.20 :Rez;
+                symbol [ Strings %tmp.22 56 52 59 ];
+                %tmp.22 = getv %tmp.21 :Strings;
+                symbol [ menu_label_2 %tmp.23 56 60 72 ];
+                %tmp.23 = getv %tmp.22 :menu_label_2;
+                %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
+                %tmp.25 = as %tmp.24 String;
+                symbol [ String %tmp.25 56 77 83 ];
+                %tmp.27 = const :item_2;
+                symbol [ item_2 %tmp.27 56 87 93 const ];
+                invoke %tmp.16 %tmp.17(%tmp.25, %tmp.27);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Final_Exports_gen_006_B4585_00_source_Rez_mcgen_53_34_57_12_stop:
+            }
+        }
+    }
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 61; @symbol_moduledef = [Strings,61,11,18]; ]
+    module Strings {
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 61; ]
+        <init> {
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 62; @position = 27; initialized = true; @symbol_vardef = [menu_label_1,62,27,39]; @symbol_type<0> = [ResourceId,62,43,53]; ]
+        var menu_label_1 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 63; @position = 27; initialized = true; @symbol_vardef = [menu_label_2,63,27,39]; @symbol_type<0> = [ResourceId,63,43,53]; ]
+        var menu_label_2 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 64; @position = 27; initialized = true; @symbol_vardef = [prompt,64,27,33]; @symbol_type<0> = [ResourceId,64,37,47]; ]
+        var prompt as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 65; @position = 27; initialized = true; @symbol_vardef = [AppName,65,27,34]; @symbol_type<0> = [ResourceId,65,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 68; @symbol_moduledef = [Styles,68,11,17]; ]
+    module Styles {
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 68; ]
+        <init> {
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 69; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,69,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 69; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [exclude,70,18,25]; @symbol_type<0> = [Boolean,70,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 73; @symbol_moduledef = [system_size__menu_header,73,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 73; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 74; @position = 18; @symbol_constdef = [width,74,18,23]; @symbol_type<0> = [Number,74,27,33]; ]
+            const width as Number = 175;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 75; @position = 18; @symbol_constdef = [height,75,18,24]; @symbol_type<0> = [Number,75,28,34]; ]
+            const height as Number = 62;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 78; @symbol_moduledef = [system_loc__hint_button_left_bottom,78,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 78; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [exclude,79,18,25]; @symbol_type<0> = [Boolean,79,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 82; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,82,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 82; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [exclude,83,18,25]; @symbol_type<0> = [Boolean,83,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 86; @symbol_moduledef = [prompt_loc__body_no_title,86,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 86; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [x,87,18,19]; @symbol_type<0> = [Number,87,23,29]; ]
+            const x as Number = 5;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [y,88,18,19]; @symbol_type<0> = [Number,88,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 91; @symbol_moduledef = [system_icon_dark__about,91,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 91; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 92; @position = 18; @symbol_constdef = [filename,92,18,26]; @symbol_type<0> = [String,92,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__about.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [disableTransparency,93,18,37]; @symbol_type<0> = [Boolean,93,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [dithering,94,18,27]; @symbol_type<0> = [String,94,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [automaticPalette,95,18,34]; @symbol_type<0> = [Boolean,95,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 98; @symbol_moduledef = [system_icon_light__question,98,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [filename,99,18,26]; @symbol_type<0> = [String,99,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__question.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [disableTransparency,100,18,37]; @symbol_type<0> = [Boolean,100,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [dithering,101,18,27]; @symbol_type<0> = [String,101,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [automaticPalette,102,18,34]; @symbol_type<0> = [Boolean,102,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 105; @symbol_moduledef = [system_loc__hint_button_left_top,105,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 105; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 106; @position = 18; @symbol_constdef = [exclude,106,18,25]; @symbol_type<0> = [Boolean,106,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 109; @symbol_moduledef = [prompt_font__title,109,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 109; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 110 18 ]
+                symbol [ Graphics %tmp.28 110 34 42 ];
+                %tmp.28 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_RIGHT %tmp.29 110 43 61 ];
+                %tmp.29 = getv %tmp.28 :TEXT_JUSTIFY_RIGHT;
+                symbol [ Graphics %tmp.30 110 62 70 ];
+                %tmp.30 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.31 110 71 91 ];
+                %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_VCENTER;
+                %tmp.32 = bitor %tmp.29 %tmp.31;
+                putv self :justification %tmp.32;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 111 18 ]
+                symbol [ Graphics %tmp.33 111 25 33 ];
+                %tmp.33 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.34 111 34 43 ];
+                %tmp.34 = getv %tmp.33 :FONT_TINY;
+                putv self :font %tmp.34;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [justification,110,18,31]; ]
+            const justification;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [font,111,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 114; @symbol_moduledef = [system_icon_dark__discard,114,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 114; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [filename,115,18,26]; @symbol_type<0> = [String,115,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__discard.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [disableTransparency,116,18,37]; @symbol_type<0> = [Boolean,116,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [dithering,117,18,27]; @symbol_type<0> = [String,117,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [automaticPalette,118,18,34]; @symbol_type<0> = [Boolean,118,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 121; @symbol_moduledef = [system_size__menu_item,121,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [width,122,18,23]; @symbol_type<0> = [Number,122,27,33]; ]
+            const width as Number = 175;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [height,123,18,24]; @symbol_type<0> = [Number,123,28,34]; ]
+            const height as Number = 58;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 126; @symbol_moduledef = [system_color_dark__text,126,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 126; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 128 18 ]
+                symbol [ Graphics %tmp.35 128 31 39 ];
+                %tmp.35 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.36 128 40 57 ];
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [color,127,18,23]; @symbol_type<0> = [Number,127,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [background,128,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 131; @symbol_moduledef = [system_icon_destructive__discard,131,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 131; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [filename,132,18,26]; @symbol_type<0> = [String,132,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__discard.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [disableTransparency,133,18,37]; @symbol_type<0> = [Boolean,133,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [dithering,134,18,27]; @symbol_type<0> = [String,134,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 135; @position = 18; @symbol_constdef = [automaticPalette,135,18,34]; @symbol_type<0> = [Boolean,135,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 138; @symbol_moduledef = [system_icon_dark__hint_action_menu,138,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 138; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 139; @position = 18; @symbol_constdef = [filename,139,18,26]; @symbol_type<0> = [String,139,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 140; @position = 18; @symbol_constdef = [disableTransparency,140,18,37]; @symbol_type<0> = [Boolean,140,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [dithering,141,18,27]; @symbol_type<0> = [String,141,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [automaticPalette,142,18,34]; @symbol_type<0> = [Boolean,142,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 145; @symbol_moduledef = [prompt_size__title,145,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 145; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [width,146,18,23]; @symbol_type<0> = [Number,146,27,33]; ]
+            const width as Number = 67;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [height,147,18,24]; @symbol_type<0> = [Number,147,28,34]; ]
+            const height as Number = 60;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 150; @symbol_moduledef = [confirmation_font__body,150,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 150; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 151 18 ]
+                symbol [ Graphics %tmp.37 151 34 42 ];
+                %tmp.37 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.38 151 43 62 ];
+                %tmp.38 = getv %tmp.37 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.38;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 152 18 ]
+                symbol [ Graphics %tmp.39 152 25 33 ];
+                %tmp.39 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.40 152 34 44 ];
+                %tmp.40 = getv %tmp.39 :FONT_XTINY;
+                putv self :font %tmp.40;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [justification,151,18,31]; ]
+            const justification;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [font,152,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 155; @symbol_moduledef = [system_color_dark__background,155,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 155; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [color,156,18,23]; @symbol_type<0> = [Number,156,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [background,157,18,28]; @symbol_type<0> = [Number,157,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 160; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,160,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 160; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 161; @position = 18; @symbol_constdef = [exclude,161,18,25]; @symbol_type<0> = [Boolean,161,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 164; @symbol_moduledef = [system_size__launch_icon,164,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 164; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 165; @position = 18; @symbol_constdef = [scaleX,165,18,24]; @symbol_type<0> = [Number,165,28,34]; ]
+            const scaleX as Number = 62;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [scaleY,166,18,24]; @symbol_type<0> = [Number,166,28,34]; ]
+            const scaleY as Number = 62;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [scaleRelativeTo,167,18,33]; @symbol_type<0> = [String,167,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 170; @symbol_moduledef = [confirmation_input__confirm,170,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 170; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 171 18 ]
+                symbol [ WatchUi %tmp.41 171 27 34 ];
+                %tmp.41 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.42 171 35 44 ];
+                %tmp.42 = getv %tmp.41 :KEY_ENTER;
+                putv self :button %tmp.42;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [button,171,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 174; @symbol_moduledef = [prompt_font__body_with_title,174,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 174; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 175 18 ]
+                symbol [ Graphics %tmp.43 175 34 42 ];
+                %tmp.43 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.44 175 43 62 ];
+                %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.44;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 176 18 ]
+                symbol [ Graphics %tmp.45 176 25 33 ];
+                %tmp.45 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.46 176 34 43 ];
+                %tmp.46 = getv %tmp.45 :FONT_TINY;
+                putv self :font %tmp.46;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 175; @position = 18; @symbol_constdef = [justification,175,18,31]; ]
+            const justification;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 176; @position = 18; @symbol_constdef = [font,176,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 179; @symbol_moduledef = [confirmation_loc__body,179,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 179; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 180; @position = 18; @symbol_constdef = [x,180,18,19]; @symbol_type<0> = [Number,180,23,29]; ]
+            const x as Number = 2;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [y,181,18,19]; @symbol_type<0> = [Number,181,23,29]; ]
+            const y as Number = 81;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 184; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,184,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 184; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 185; @position = 18; @symbol_constdef = [exclude,185,18,25]; @symbol_type<0> = [Boolean,185,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 188; @symbol_moduledef = [prompt_color_dark__background,188,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 188; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [background,189,18,28]; @symbol_type<0> = [Number,189,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 192; @symbol_moduledef = [system_icon_destructive__hint_action_menu,192,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 192; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [filename,193,18,26]; @symbol_type<0> = [String,193,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 194; @position = 18; @symbol_constdef = [disableTransparency,194,18,37]; @symbol_type<0> = [Boolean,194,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 195; @position = 18; @symbol_constdef = [dithering,195,18,27]; @symbol_type<0> = [String,195,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [automaticPalette,196,18,34]; @symbol_type<0> = [Boolean,196,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 199; @symbol_moduledef = [system_loc__hint_action_menu,199,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [x,200,18,19]; @symbol_type<0> = [Number,200,23,29]; ]
+            const x as Number = 166;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [y,201,18,19]; @symbol_type<0> = [Number,201,23,29]; ]
+            const y as Number = 31;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [horizontalJustification,202,18,41]; @symbol_type<0> = [String,202,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [verticalJustification,203,18,39]; @symbol_type<0> = [String,203,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 206; @symbol_moduledef = [confirmation_icon__hint_confirm,206,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [filename,207,18,26]; @symbol_type<0> = [String,207,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [disableTransparency,208,18,37]; @symbol_type<0> = [Boolean,208,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [dithering,209,18,27]; @symbol_type<0> = [String,209,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [automaticPalette,210,18,34]; @symbol_type<0> = [Boolean,210,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 213; @symbol_moduledef = [system_loc__hint_button_left_middle,213,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 214; @position = 18; @symbol_constdef = [exclude,214,18,25]; @symbol_type<0> = [Boolean,214,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 217; @symbol_moduledef = [prompt_size__body_no_title,217,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 217; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [width,218,18,23]; @symbol_type<0> = [Number,218,27,33]; ]
+            const width as Number = 166;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [height,219,18,24]; @symbol_type<0> = [Number,219,28,34]; ]
+            const height as Number = 99;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 222; @symbol_moduledef = [system_icon_light__hint_button_left_top,222,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 222; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [exclude,223,18,25]; @symbol_type<0> = [Boolean,223,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 226; @symbol_moduledef = [prompt_color_light__background,226,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [background,227,18,28]; @symbol_type<0> = [Number,227,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 230; @symbol_moduledef = [confirmation_input__delete,230,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 230; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 231 18 ]
+                symbol [ WatchUi %tmp.47 231 27 34 ];
+                %tmp.47 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.48 231 35 44 ];
+                %tmp.48 = getv %tmp.47 :KEY_ENTER;
+                putv self :button %tmp.48;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [button,231,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 234; @symbol_moduledef = [system_icon_dark__hint_button_left_top,234,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [exclude,235,18,25]; @symbol_type<0> = [Boolean,235,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 238; @symbol_moduledef = [system_input__action_menu,238,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 238; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 239 18 ]
+                symbol [ WatchUi %tmp.49 239 27 34 ];
+                %tmp.49 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.50 239 35 44 ];
+                %tmp.50 = getv %tmp.49 :KEY_ENTER;
+                putv self :button %tmp.50;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [button,239,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 242; @symbol_moduledef = [system_icon_light__save,242,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 242; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [filename,243,18,26]; @symbol_type<0> = [String,243,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__save.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [disableTransparency,244,18,37]; @symbol_type<0> = [Boolean,244,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [dithering,245,18,27]; @symbol_type<0> = [String,245,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [automaticPalette,246,18,34]; @symbol_type<0> = [Boolean,246,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 249; @symbol_moduledef = [prompt_color_light__body,249,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 249; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 251 18 ]
+                symbol [ Graphics %tmp.51 251 31 39 ];
+                %tmp.51 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.52 251 40 57 ];
+                %tmp.52 = getv %tmp.51 :COLOR_TRANSPARENT;
+                putv self :background %tmp.52;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [color,250,18,23]; @symbol_type<0> = [Number,250,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [background,251,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 254; @symbol_moduledef = [system_loc__subwindow,254,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [x,255,18,19]; @symbol_type<0> = [Number,255,23,29]; ]
+            const x as Number = 114;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [y,256,18,19]; @symbol_type<0> = [Number,256,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 259; @symbol_moduledef = [system_icon_light__warning,259,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [filename,260,18,26]; @symbol_type<0> = [String,260,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__warning.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [disableTransparency,261,18,37]; @symbol_type<0> = [Boolean,261,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [dithering,262,18,27]; @symbol_type<0> = [String,262,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 263; @position = 18; @symbol_constdef = [automaticPalette,263,18,34]; @symbol_type<0> = [Boolean,263,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 266; @symbol_moduledef = [confirmation_color_light__body,266,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 266; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 268 18 ]
+                symbol [ Graphics %tmp.53 268 31 39 ];
+                %tmp.53 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.54 268 40 57 ];
+                %tmp.54 = getv %tmp.53 :COLOR_TRANSPARENT;
+                putv self :background %tmp.54;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [color,267,18,23]; @symbol_type<0> = [Number,267,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 268; @position = 18; @symbol_constdef = [background,268,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 271; @symbol_moduledef = [confirmation_icon_light__hint_keep,271,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 271; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [filename,272,18,26]; @symbol_type<0> = [String,272,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [disableTransparency,273,18,37]; @symbol_type<0> = [Boolean,273,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [dithering,274,18,27]; @symbol_type<0> = [String,274,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [automaticPalette,275,18,34]; @symbol_type<0> = [Boolean,275,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 278; @symbol_moduledef = [activity_color_light__background,278,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [color,279,18,23]; @symbol_type<0> = [Number,279,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [background,280,18,28]; @symbol_type<0> = [Number,280,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 283; @symbol_moduledef = [system_icon_positive__hint_button_right_top,283,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [filename,284,18,26]; @symbol_type<0> = [String,284,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [disableTransparency,285,18,37]; @symbol_type<0> = [Boolean,285,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [dithering,286,18,27]; @symbol_type<0> = [String,286,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 287; @position = 18; @symbol_constdef = [automaticPalette,287,18,34]; @symbol_type<0> = [Boolean,287,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 290; @symbol_moduledef = [system_size__screen,290,15,34]; ]
+        module system_size__screen {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 290; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [width,291,18,23]; @symbol_type<0> = [Number,291,27,33]; ]
+            const width as Number = 176;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 292; @position = 18; @symbol_constdef = [height,292,18,24]; @symbol_type<0> = [Number,292,28,34]; ]
+            const height as Number = 176;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 295; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,295,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 295; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [exclude,296,18,25]; @symbol_type<0> = [Boolean,296,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 299; @symbol_moduledef = [system_color_light__background,299,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 299; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [color,300,18,23]; @symbol_type<0> = [Number,300,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [background,301,18,28]; @symbol_type<0> = [Number,301,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 304; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,304,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 304; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [filename,305,18,26]; @symbol_type<0> = [String,305,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [disableTransparency,306,18,37]; @symbol_type<0> = [Boolean,306,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 307; @position = 18; @symbol_constdef = [dithering,307,18,27]; @symbol_type<0> = [String,307,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [automaticPalette,308,18,34]; @symbol_type<0> = [Boolean,308,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 311; @symbol_moduledef = [confirmation_loc__hint_confirm,311,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 311; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [x,312,18,19]; @symbol_type<0> = [Number,312,23,29]; ]
+            const x as Number = 113;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [y,313,18,19]; @symbol_type<0> = [Number,313,23,29]; ]
+            const y as Number = 1;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 316; @symbol_moduledef = [activity_color_dark__text,316,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 316; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 318 18 ]
+                symbol [ Graphics %tmp.55 318 31 39 ];
+                %tmp.55 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.56 318 40 57 ];
+                %tmp.56 = getv %tmp.55 :COLOR_TRANSPARENT;
+                putv self :background %tmp.56;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [color,317,18,23]; @symbol_type<0> = [Number,317,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [background,318,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 321; @symbol_moduledef = [confirmation_input__keep,321,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 321; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 322 18 ]
+                symbol [ WatchUi %tmp.57 322 27 34 ];
+                %tmp.57 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.58 322 35 43 ];
+                %tmp.58 = getv %tmp.57 :KEY_DOWN;
+                putv self :button %tmp.58;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [button,322,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 325; @symbol_moduledef = [prompt_loc__body_with_title,325,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 325; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [x,326,18,19]; @symbol_type<0> = [Number,326,23,29]; ]
+            const x as Number = 5;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [y,327,18,19]; @symbol_type<0> = [Number,327,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 330; @symbol_moduledef = [system_icon_dark__search,330,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 330; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [filename,331,18,26]; @symbol_type<0> = [String,331,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__search.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [disableTransparency,332,18,37]; @symbol_type<0> = [Boolean,332,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [dithering,333,18,27]; @symbol_type<0> = [String,333,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [automaticPalette,334,18,34]; @symbol_type<0> = [Boolean,334,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 337; @symbol_moduledef = [activity_color_light__text,337,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 337; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 339 18 ]
+                symbol [ Graphics %tmp.59 339 31 39 ];
+                %tmp.59 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.60 339 40 57 ];
+                %tmp.60 = getv %tmp.59 :COLOR_TRANSPARENT;
+                putv self :background %tmp.60;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [color,338,18,23]; @symbol_type<0> = [Number,338,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [background,339,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 342; @symbol_moduledef = [confirmation_icon__hint_keep,342,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [filename,343,18,26]; @symbol_type<0> = [String,343,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [disableTransparency,344,18,37]; @symbol_type<0> = [Boolean,344,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [dithering,345,18,27]; @symbol_type<0> = [String,345,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 346; @position = 18; @symbol_constdef = [automaticPalette,346,18,34]; @symbol_type<0> = [Boolean,346,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 349; @symbol_moduledef = [system_icon_dark__save,349,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [filename,350,18,26]; @symbol_type<0> = [String,350,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__save.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 351; @position = 18; @symbol_constdef = [disableTransparency,351,18,37]; @symbol_type<0> = [Boolean,351,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [dithering,352,18,27]; @symbol_type<0> = [String,352,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [automaticPalette,353,18,34]; @symbol_type<0> = [Boolean,353,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 356; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,356,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [exclude,357,18,25]; @symbol_type<0> = [Boolean,357,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 360; @symbol_moduledef = [system_icon_light__search,360,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 360; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [filename,361,18,26]; @symbol_type<0> = [String,361,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__search.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [disableTransparency,362,18,37]; @symbol_type<0> = [Boolean,362,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [dithering,363,18,27]; @symbol_type<0> = [String,363,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [automaticPalette,364,18,34]; @symbol_type<0> = [Boolean,364,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 367; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,367,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 367; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [exclude,368,18,25]; @symbol_type<0> = [Boolean,368,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 371; @symbol_moduledef = [system_icon_positive__hint_button_left_top,371,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [exclude,372,18,25]; @symbol_type<0> = [Boolean,372,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 375; @symbol_moduledef = [system_loc__hint_button_right_bottom,375,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [exclude,376,18,25]; @symbol_type<0> = [Boolean,376,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 379; @symbol_moduledef = [confirmation_icon_dark__hint_reject,379,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 379; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 380; @position = 18; @symbol_constdef = [filename,380,18,26]; @symbol_type<0> = [String,380,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [disableTransparency,381,18,37]; @symbol_type<0> = [Boolean,381,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [dithering,382,18,27]; @symbol_type<0> = [String,382,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [automaticPalette,383,18,34]; @symbol_type<0> = [Boolean,383,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 386; @symbol_moduledef = [confirmation_color_dark__body,386,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 386; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 388 18 ]
+                symbol [ Graphics %tmp.61 388 31 39 ];
+                %tmp.61 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.62 388 40 57 ];
+                %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+                putv self :background %tmp.62;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [color,387,18,23]; @symbol_type<0> = [Number,387,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [background,388,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 391; @symbol_moduledef = [confirmation_icon_light__hint_confirm,391,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [filename,392,18,26]; @symbol_type<0> = [String,392,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [disableTransparency,393,18,37]; @symbol_type<0> = [Boolean,393,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 394; @position = 18; @symbol_constdef = [dithering,394,18,27]; @symbol_type<0> = [String,394,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 395; @position = 18; @symbol_constdef = [automaticPalette,395,18,34]; @symbol_type<0> = [Boolean,395,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 398; @symbol_moduledef = [prompt_color_dark__title,398,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 398; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 400 18 ]
+                symbol [ Graphics %tmp.63 400 31 39 ];
+                %tmp.63 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.64 400 40 57 ];
+                %tmp.64 = getv %tmp.63 :COLOR_TRANSPARENT;
+                putv self :background %tmp.64;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 399; @position = 18; @symbol_constdef = [color,399,18,23]; @symbol_type<0> = [Number,399,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [background,400,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 403; @symbol_moduledef = [system_icon_destructive__cancel,403,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 403; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [filename,404,18,26]; @symbol_type<0> = [String,404,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__cancel.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 405; @position = 18; @symbol_constdef = [disableTransparency,405,18,37]; @symbol_type<0> = [Boolean,405,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [dithering,406,18,27]; @symbol_type<0> = [String,406,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [automaticPalette,407,18,34]; @symbol_type<0> = [Boolean,407,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 410; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,410,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [exclude,411,18,25]; @symbol_type<0> = [Boolean,411,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 414; @symbol_moduledef = [prompt_loc__title,414,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 414; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [x,415,18,19]; @symbol_type<0> = [Number,415,23,29]; ]
+            const x as Number = 25;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [y,416,18,19]; @symbol_type<0> = [Number,416,23,29]; ]
+            const y as Number = 9;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 419; @symbol_moduledef = [confirmation_font_enhanced_readability__body,419,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 419; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [exclude,420,18,25]; @symbol_type<0> = [Boolean,420,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 423; @symbol_moduledef = [prompt_color_light__title,423,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 423; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 425 18 ]
+                symbol [ Graphics %tmp.65 425 31 39 ];
+                %tmp.65 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.66 425 40 57 ];
+                %tmp.66 = getv %tmp.65 :COLOR_TRANSPARENT;
+                putv self :background %tmp.66;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 424; @position = 18; @symbol_constdef = [color,424,18,23]; @symbol_type<0> = [Number,424,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [background,425,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 428; @symbol_moduledef = [system_icon_dark__hint_button_right_top,428,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 428; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 429; @position = 18; @symbol_constdef = [filename,429,18,26]; @symbol_type<0> = [String,429,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [disableTransparency,430,18,37]; @symbol_type<0> = [Boolean,430,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [dithering,431,18,27]; @symbol_type<0> = [String,431,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [automaticPalette,432,18,34]; @symbol_type<0> = [Boolean,432,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 435; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,435,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [exclude,436,18,25]; @symbol_type<0> = [Boolean,436,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 439; @symbol_moduledef = [confirmation_icon_dark__hint_keep,439,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [filename,440,18,26]; @symbol_type<0> = [String,440,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [disableTransparency,441,18,37]; @symbol_type<0> = [Boolean,441,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [dithering,442,18,27]; @symbol_type<0> = [String,442,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [automaticPalette,443,18,34]; @symbol_type<0> = [Boolean,443,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 446; @symbol_moduledef = [system_icon_light__cancel,446,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 446; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [filename,447,18,26]; @symbol_type<0> = [String,447,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__cancel.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [disableTransparency,448,18,37]; @symbol_type<0> = [Boolean,448,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [dithering,449,18,27]; @symbol_type<0> = [String,449,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [automaticPalette,450,18,34]; @symbol_type<0> = [Boolean,450,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 453; @symbol_moduledef = [confirmation_icon_light__hint_reject,453,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 453; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [filename,454,18,26]; @symbol_type<0> = [String,454,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [disableTransparency,455,18,37]; @symbol_type<0> = [Boolean,455,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [dithering,456,18,27]; @symbol_type<0> = [String,456,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [automaticPalette,457,18,34]; @symbol_type<0> = [Boolean,457,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 460; @symbol_moduledef = [system_icon_light__about,460,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [filename,461,18,26]; @symbol_type<0> = [String,461,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__about.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [disableTransparency,462,18,37]; @symbol_type<0> = [Boolean,462,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [dithering,463,18,27]; @symbol_type<0> = [String,463,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [automaticPalette,464,18,34]; @symbol_type<0> = [Boolean,464,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 467; @symbol_moduledef = [system_size__toast_icon,467,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 467; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 468; @position = 18; @symbol_constdef = [width,468,18,23]; @symbol_type<0> = [Number,468,27,33]; ]
+            const width as Number = 44;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 469; @position = 18; @symbol_constdef = [scaleRelativeTo,469,18,33]; @symbol_type<0> = [String,469,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 472; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,472,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 472; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 473; @position = 18; @symbol_constdef = [exclude,473,18,25]; @symbol_type<0> = [Boolean,473,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 476; @symbol_moduledef = [confirmation_icon__hint_reject,476,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 476; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [filename,477,18,26]; @symbol_type<0> = [String,477,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 478; @position = 18; @symbol_constdef = [disableTransparency,478,18,37]; @symbol_type<0> = [Boolean,478,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [dithering,479,18,27]; @symbol_type<0> = [String,479,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [automaticPalette,480,18,34]; @symbol_type<0> = [Boolean,480,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 483; @symbol_moduledef = [system_icon_light__hint_action_menu,483,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 483; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [filename,484,18,26]; @symbol_type<0> = [String,484,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [disableTransparency,485,18,37]; @symbol_type<0> = [Boolean,485,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [dithering,486,18,27]; @symbol_type<0> = [String,486,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [automaticPalette,487,18,34]; @symbol_type<0> = [Boolean,487,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 490; @symbol_moduledef = [system_icon_light__hint_button_right_middle,490,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 490; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [exclude,491,18,25]; @symbol_type<0> = [Boolean,491,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 494; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,494,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [exclude,495,18,25]; @symbol_type<0> = [Boolean,495,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 498; @symbol_moduledef = [confirmation_loc__hint_reject,498,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [x,499,18,19]; @symbol_type<0> = [Number,499,23,29]; ]
+            const x as Number = 0;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [y,500,18,19]; @symbol_type<0> = [Number,500,23,29]; ]
+            const y as Number = 138;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 503; @symbol_moduledef = [confirmation_icon_dark__hint_delete,503,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 503; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [filename,504,18,26]; @symbol_type<0> = [String,504,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [disableTransparency,505,18,37]; @symbol_type<0> = [Boolean,505,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [dithering,506,18,27]; @symbol_type<0> = [String,506,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [automaticPalette,507,18,34]; @symbol_type<0> = [Boolean,507,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 510; @symbol_moduledef = [activity_color_dark__background,510,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [color,511,18,23]; @symbol_type<0> = [Number,511,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [background,512,18,28]; @symbol_type<0> = [Number,512,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 515; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,515,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [exclude,516,18,25]; @symbol_type<0> = [Boolean,516,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 519; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,519,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 519; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [exclude,520,18,25]; @symbol_type<0> = [Boolean,520,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 523; @symbol_moduledef = [system_size__menu_icon,523,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [scaleX,524,18,24]; @symbol_type<0> = [Number,524,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [scaleY,525,18,24]; @symbol_type<0> = [Number,525,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [scaleRelativeTo,526,18,33]; @symbol_type<0> = [String,526,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 529; @symbol_moduledef = [system_icon_destructive__warning,529,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [filename,530,18,26]; @symbol_type<0> = [String,530,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__warning.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [disableTransparency,531,18,37]; @symbol_type<0> = [Boolean,531,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [dithering,532,18,27]; @symbol_type<0> = [String,532,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [automaticPalette,533,18,34]; @symbol_type<0> = [Boolean,533,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 536; @symbol_moduledef = [system_loc__hint_button_right_middle,536,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [exclude,537,18,25]; @symbol_type<0> = [Boolean,537,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 540; @symbol_moduledef = [system_icon_dark__cancel,540,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 540; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [filename,541,18,26]; @symbol_type<0> = [String,541,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__cancel.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [disableTransparency,542,18,37]; @symbol_type<0> = [Boolean,542,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [dithering,543,18,27]; @symbol_type<0> = [String,543,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [automaticPalette,544,18,34]; @symbol_type<0> = [Boolean,544,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 547; @symbol_moduledef = [prompt_size__body_with_title,547,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 547; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [width,548,18,23]; @symbol_type<0> = [Number,548,27,33]; ]
+            const width as Number = 166;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [height,549,18,24]; @symbol_type<0> = [Number,549,28,34]; ]
+            const height as Number = 99;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 552; @symbol_moduledef = [system_loc__hint_button_right_top,552,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [x,553,18,19]; @symbol_type<0> = [Number,553,23,29]; ]
+            const x as Number = 166;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [y,554,18,19]; @symbol_type<0> = [Number,554,23,29]; ]
+            const y as Number = 31;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [horizontalJustification,555,18,41]; @symbol_type<0> = [String,555,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [verticalJustification,556,18,39]; @symbol_type<0> = [String,556,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 559; @symbol_moduledef = [system_color_light__text,559,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 559; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 561 18 ]
+                symbol [ Graphics %tmp.67 561 31 39 ];
+                %tmp.67 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.68 561 40 57 ];
+                %tmp.68 = getv %tmp.67 :COLOR_TRANSPARENT;
+                putv self :background %tmp.68;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [color,560,18,23]; @symbol_type<0> = [Number,560,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [background,561,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 564; @symbol_moduledef = [system_icon_light__check,564,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [filename,565,18,26]; @symbol_type<0> = [String,565,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__check.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [disableTransparency,566,18,37]; @symbol_type<0> = [Boolean,566,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [dithering,567,18,27]; @symbol_type<0> = [String,567,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [automaticPalette,568,18,34]; @symbol_type<0> = [Boolean,568,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 571; @symbol_moduledef = [confirmation_input__reject,571,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 571; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 572 18 ]
+                symbol [ WatchUi %tmp.69 572 27 34 ];
+                %tmp.69 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.70 572 35 43 ];
+                %tmp.70 = getv %tmp.69 :KEY_DOWN;
+                putv self :button %tmp.70;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [button,572,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 575; @symbol_moduledef = [system_icon_light__revert,575,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [filename,576,18,26]; @symbol_type<0> = [String,576,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__revert.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [disableTransparency,577,18,37]; @symbol_type<0> = [Boolean,577,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [dithering,578,18,27]; @symbol_type<0> = [String,578,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [automaticPalette,579,18,34]; @symbol_type<0> = [Boolean,579,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 582; @symbol_moduledef = [system_size__subwindow,582,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [width,583,18,23]; @symbol_type<0> = [Number,583,27,33]; ]
+            const width as Number = 62;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [height,584,18,24]; @symbol_type<0> = [Number,584,28,34]; ]
+            const height as Number = 62;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 587; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,587,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [exclude,588,18,25]; @symbol_type<0> = [Boolean,588,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 591; @symbol_moduledef = [system_icon_dark__check,591,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 591; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [filename,592,18,26]; @symbol_type<0> = [String,592,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__check.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [disableTransparency,593,18,37]; @symbol_type<0> = [Boolean,593,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [dithering,594,18,27]; @symbol_type<0> = [String,594,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 595; @position = 18; @symbol_constdef = [automaticPalette,595,18,34]; @symbol_type<0> = [Boolean,595,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 598; @symbol_moduledef = [confirmation_loc__hint_keep,598,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 598; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [x,599,18,19]; @symbol_type<0> = [Number,599,23,29]; ]
+            const x as Number = 0;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [y,600,18,19]; @symbol_type<0> = [Number,600,23,29]; ]
+            const y as Number = 138;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 603; @symbol_moduledef = [confirmation_loc__hint_delete,603,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 603; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [verticallJustification,604,18,40]; @symbol_type<0> = [String,604,44,50]; ]
+            const verticallJustification as String = "center";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [x,605,18,19]; @symbol_type<0> = [Number,605,23,29]; ]
+            const x as Number = 146;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [y,606,18,19]; @symbol_type<0> = [Number,606,23,29]; ]
+            const y as Number = 15;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [horizontalJustification,607,18,41]; @symbol_type<0> = [String,607,45,51]; ]
+            const horizontalJustification as String = "center";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 610; @symbol_moduledef = [system_icon_positive__hint_action_menu,610,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 610; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [filename,611,18,26]; @symbol_type<0> = [String,611,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [disableTransparency,612,18,37]; @symbol_type<0> = [Boolean,612,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [dithering,613,18,27]; @symbol_type<0> = [String,613,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [automaticPalette,614,18,34]; @symbol_type<0> = [Boolean,614,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 617; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,617,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 617; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [exclude,618,18,25]; @symbol_type<0> = [Boolean,618,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 621; @symbol_moduledef = [system_icon_light__hint_button_left_middle,621,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [exclude,622,18,25]; @symbol_type<0> = [Boolean,622,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 625; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,625,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [exclude,626,18,25]; @symbol_type<0> = [Boolean,626,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 629; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,629,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [exclude,630,18,25]; @symbol_type<0> = [Boolean,630,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 633; @symbol_moduledef = [system_icon_dark__revert,633,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 633; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [filename,634,18,26]; @symbol_type<0> = [String,634,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__revert.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [disableTransparency,635,18,37]; @symbol_type<0> = [Boolean,635,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [dithering,636,18,27]; @symbol_type<0> = [String,636,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [automaticPalette,637,18,34]; @symbol_type<0> = [Boolean,637,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 640; @symbol_moduledef = [confirmation_icon_light__hint_delete,640,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 640; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [filename,641,18,26]; @symbol_type<0> = [String,641,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [disableTransparency,642,18,37]; @symbol_type<0> = [Boolean,642,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [dithering,643,18,27]; @symbol_type<0> = [String,643,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [automaticPalette,644,18,34]; @symbol_type<0> = [Boolean,644,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 647; @symbol_moduledef = [system_icon_dark__question,647,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 647; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [filename,648,18,26]; @symbol_type<0> = [String,648,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__question.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [disableTransparency,649,18,37]; @symbol_type<0> = [Boolean,649,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [dithering,650,18,27]; @symbol_type<0> = [String,650,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [automaticPalette,651,18,34]; @symbol_type<0> = [Boolean,651,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 654; @symbol_moduledef = [system_icon_light__discard,654,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 654; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [filename,655,18,26]; @symbol_type<0> = [String,655,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__discard.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [disableTransparency,656,18,37]; @symbol_type<0> = [Boolean,656,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [dithering,657,18,27]; @symbol_type<0> = [String,657,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [automaticPalette,658,18,34]; @symbol_type<0> = [Boolean,658,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 661; @symbol_moduledef = [device_info,661,15,26]; ]
+        module device_info {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 661; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 663 18 ]
+                symbol [ Toybox %tmp.72 663 32 38 ];
+                %tmp.72 = getv ? :Toybox;
+                symbol [ System %tmp.73 663 39 45 ];
+                %tmp.73 = getv %tmp.72 :System;
+                symbol [ SCREEN_SHAPE_SEMI_OCTAGON %tmp.74 663 46 71 ];
+                %tmp.74 = getv %tmp.73 :SCREEN_SHAPE_SEMI_OCTAGON;
+                putv self :screenShape %tmp.74;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [screenWidth,662,18,29]; @symbol_type<0> = [Number,662,33,39]; ]
+            const screenWidth as Number = 176;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [screenShape,663,18,29]; ]
+            const screenShape;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [hasNightMode,664,18,30]; @symbol_type<0> = [Boolean,664,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [hasGpu,665,18,24]; @symbol_type<0> = [Boolean,665,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [screenHeight,666,18,30]; @symbol_type<0> = [Number,666,34,40]; ]
+            const screenHeight as Number = 176;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [hasTouchScreen,667,18,32]; @symbol_type<0> = [Boolean,667,36,43]; ]
+            const hasTouchScreen as Boolean = false;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,668,18,44]; @symbol_type<0> = [Boolean,668,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 671; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,671,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 671; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 672; @position = 18; @symbol_constdef = [filename,672,18,26]; @symbol_type<0> = [String,672,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [disableTransparency,673,18,37]; @symbol_type<0> = [Boolean,673,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [dithering,674,18,27]; @symbol_type<0> = [String,674,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [automaticPalette,675,18,34]; @symbol_type<0> = [Boolean,675,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 678; @symbol_moduledef = [prompt_font__body_no_title,678,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 678; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 679 18 ]
+                symbol [ Graphics %tmp.75 679 34 42 ];
+                %tmp.75 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.76 679 43 62 ];
+                %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.76;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 680 18 ]
+                symbol [ Graphics %tmp.77 680 25 33 ];
+                %tmp.77 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.78 680 34 43 ];
+                %tmp.78 = getv %tmp.77 :FONT_TINY;
+                putv self :font %tmp.78;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [justification,679,18,31]; ]
+            const justification;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [font,680,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 683; @symbol_moduledef = [prompt_size__title_icon,683,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 683; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [scaleX,684,18,24]; @symbol_type<0> = [Number,684,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [scaleY,685,18,24]; @symbol_type<0> = [Number,685,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [scaleRelativeTo,686,18,33]; @symbol_type<0> = [String,686,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 689; @symbol_moduledef = [system_icon_dark__warning,689,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 689; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [filename,690,18,26]; @symbol_type<0> = [String,690,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__warning.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 691; @position = 18; @symbol_constdef = [disableTransparency,691,18,37]; @symbol_type<0> = [Boolean,691,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 692; @position = 18; @symbol_constdef = [dithering,692,18,27]; @symbol_type<0> = [String,692,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [automaticPalette,693,18,34]; @symbol_type<0> = [Boolean,693,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 696; @symbol_moduledef = [prompt_loc__title_icon,696,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 696; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 697; @position = 18; @symbol_constdef = [x,697,18,19]; @symbol_type<0> = [Number,697,23,29]; ]
+            const x as Number = 145;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [y,698,18,19]; @symbol_type<0> = [Number,698,23,29]; ]
+            const y as Number = 31;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [horizontalJustification,699,18,41]; @symbol_type<0> = [String,699,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 700; @position = 18; @symbol_constdef = [verticalJustification,700,18,39]; @symbol_type<0> = [String,700,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 703; @symbol_moduledef = [prompt_font_enhanced_readability__title,703,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 703; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 704; @position = 18; @symbol_constdef = [exclude,704,18,25]; @symbol_type<0> = [Boolean,704,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 707; @symbol_moduledef = [prompt_color_dark__body,707,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 707; ]
+            <init> {
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen" 709 18 ]
+                symbol [ Graphics %tmp.79 709 31 39 ];
+                %tmp.79 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.80 709 40 57 ];
+                %tmp.80 = getv %tmp.79 :COLOR_TRANSPARENT;
+                putv self :background %tmp.80;
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [color,708,18,23]; @symbol_type<0> = [Number,708,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 709; @position = 18; @symbol_constdef = [background,709,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 712; @symbol_moduledef = [confirmation_icon__hint_delete,712,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 712; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 713; @position = 18; @symbol_constdef = [filename,713,18,26]; @symbol_type<0> = [String,713,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 714; @position = 18; @symbol_constdef = [disableTransparency,714,18,37]; @symbol_type<0> = [Boolean,714,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 715; @position = 18; @symbol_constdef = [dithering,715,18,27]; @symbol_type<0> = [String,715,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 716; @position = 18; @symbol_constdef = [automaticPalette,716,18,34]; @symbol_type<0> = [Boolean,716,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 719; @symbol_moduledef = [system_icon_light__hint_button_right_top,719,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 719; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 720; @position = 18; @symbol_constdef = [filename,720,18,26]; @symbol_type<0> = [String,720,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 721; @position = 18; @symbol_constdef = [disableTransparency,721,18,37]; @symbol_type<0> = [Boolean,721,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 722; @position = 18; @symbol_constdef = [dithering,722,18,27]; @symbol_type<0> = [String,722,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 723; @position = 18; @symbol_constdef = [automaticPalette,723,18,34]; @symbol_type<0> = [Boolean,723,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 726; @symbol_moduledef = [confirmation_size__body,726,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 726; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 727; @position = 18; @symbol_constdef = [width,727,18,23]; @symbol_type<0> = [Number,727,27,33]; ]
+            const width as Number = 173;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 728; @position = 18; @symbol_constdef = [height,728,18,24]; @symbol_type<0> = [Number,728,28,34]; ]
+            const height as Number = 63;
+        }
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 731; @symbol_moduledef = [system_icon_positive__check,731,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 731; ]
+            <init> {
+            }
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 732; @position = 18; @symbol_constdef = [filename,732,18,26]; @symbol_type<0> = [String,732,30,36]; ]
+            const filename as String = "/home/kaden/.Garmin/ConnectIQ/Devices/instinct3solar45mm/system_icon_dark__check.svg";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 733; @position = 18; @symbol_constdef = [disableTransparency,733,18,37]; @symbol_type<0> = [Boolean,733,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 734; @position = 18; @symbol_constdef = [dithering,734,18,27]; @symbol_type<0> = [String,734,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 735; @position = 18; @symbol_constdef = [automaticPalette,735,18,34]; @symbol_type<0> = [Boolean,735,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
+}
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Final Exports/gen/006-B4585-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

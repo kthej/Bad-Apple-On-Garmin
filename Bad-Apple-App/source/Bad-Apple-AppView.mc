@@ -1,6 +1,6 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
-public var animationTimer;
+var animationTimer;
 class Bad_Apple_AppView extends WatchUi.View {
 
     function initialize() {

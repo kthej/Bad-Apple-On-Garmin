@@ -24,40 +24,69 @@ _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_A
     }
     [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 11; @symbol_functiondef = [onLayout,11,13,21]; @symbol_param<0> = [dc,11,22,24]; @symbol_param<0>_type<0> = [Dc,11,28,30]; ]
     function onLayout(dc as Dc) as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_11_40_13_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 12 8 ]
-        %tmp.1 = self;
-        symbol [ setLayout %tmp.2 12 8 17 ];
-        %tmp.2 = getv function %tmp.1 :setLayout;
-        symbol [ Rez %tmp.4 12 18 21 ];
-        %tmp.4 = getv ? :Rez;
-        symbol [ Layouts %tmp.5 12 22 29 ];
-        %tmp.5 = getv %tmp.4 :Layouts;
-        symbol [ MainLayout %tmp.6 12 30 40 ];
-        %tmp.6 = getv function %tmp.5 :MainLayout;
-        %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 12 41 43 ];
-        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
-        invoke %tmp.1 %tmp.2(%tmp.8);
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_11_40_13_4_stop:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_11_40_14_4_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 13 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 13 8 10 ];
+        symbol [ clear %tmp.2 13 11 16 ];
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_11_40_14_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 18; @symbol_functiondef = [onShow,18,13,19]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 19; @symbol_functiondef = [onShow,19,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 22; @symbol_functiondef = [onUpdate,22,13,21]; @symbol_param<0> = [dc,22,22,24]; @symbol_param<0>_type<0> = [Dc,22,28,30]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 23; @symbol_functiondef = [onUpdate,23,13,21]; @symbol_param<0> = [dc,23,22,24]; @symbol_param<0>_type<0> = [Dc,23,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_22_40_25_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 24 8 ]
-        symbol [ View %tmp.2 24 8 12 ];
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_23_40_30_4_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 25 8 ]
+        symbol [ View %tmp.2 25 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ onUpdate %tmp.3 24 13 21 ];
+        symbol [ onUpdate %tmp.3 25 13 21 ];
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 24 22 24 ];
+        symbol [ dc %tmp.4 25 22 24 ];
         invoke %tmp.2 %tmp.3(%tmp.4);
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_22_40_25_4_stop:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 26 8 ]
+        %tmp.5 = lgetv %dc;
+        symbol [ dc %tmp.5 26 8 10 ];
+        symbol [ clear %tmp.6 26 11 16 ];
+        %tmp.6 = getv function %tmp.5 :clear;
+        invoke %tmp.5 %tmp.6();
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 27 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 27 8 10 ];
+        symbol [ setColor %tmp.8 27 11 19 ];
+        %tmp.8 = getv function %tmp.7 :setColor;
+        symbol [ Graphics %tmp.9 27 20 28 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.10 27 29 40 ];
+        %tmp.10 = getv %tmp.9 :COLOR_BLACK;
+        symbol [ Graphics %tmp.11 27 42 50 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.12 27 51 62 ];
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 28 8 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 28 8 10 ];
+        symbol [ drawText %tmp.14 28 11 19 ];
+        %tmp.14 = getv function %tmp.13 :drawText;
+        %tmp.15 = 50;
+        %tmp.16 = 50;
+        symbol [ Graphics %tmp.17 28 26 34 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ FONT_AUX1 %tmp.18 28 35 44 ];
+        %tmp.18 = getv %tmp.17 :FONT_AUX1;
+        %tmp.19 = "Hello";
+        symbol [ Graphics %tmp.20 28 53 61 ];
+        %tmp.20 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.21 28 62 81 ];
+        %tmp.21 = getv %tmp.20 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.13 %tmp.14(%tmp.15, %tmp.16, %tmp.18, %tmp.19, %tmp.21);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_23_40_30_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 30; @symbol_functiondef = [onHide,30,13,19]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 35; @symbol_functiondef = [onHide,35,13,19]; ]
     function onHide() as Void {
     }
 }

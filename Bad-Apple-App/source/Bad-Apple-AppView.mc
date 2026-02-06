@@ -9,7 +9,8 @@ class Bad_Apple_AppView extends WatchUi.View {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.MainLayout(dc));
+    
+        dc.clear();
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -22,6 +23,10 @@ class Bad_Apple_AppView extends WatchUi.View {
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+        dc.clear();
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
+        dc.drawText(50,50,Graphics.FONT_AUX1,"Hello",Graphics.TEXT_JUSTIFY_CENTER);
+        
     }
 
     // Called when this View is removed from the screen. Save the

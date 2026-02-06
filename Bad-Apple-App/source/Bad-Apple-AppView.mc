@@ -37,7 +37,7 @@ class Bad_Apple_AppView extends WatchUi.View {
         View.onUpdate(dc);
         dc.clear();
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(38,75,VideoFont1,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(,75,VideoFont1,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT);
         
     }
 

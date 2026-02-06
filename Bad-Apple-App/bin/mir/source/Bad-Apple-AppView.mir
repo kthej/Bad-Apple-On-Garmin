@@ -89,15 +89,15 @@ _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_A
         symbol [ dc %tmp.13 29 8 10 ];
         symbol [ drawText %tmp.14 29 11 19 ];
         %tmp.14 = getv function %tmp.13 :drawText;
-        %tmp.15 = 88;
-        %tmp.16 = 50;
+        %tmp.15 = 38;
+        %tmp.16 = 75;
         symbol [ VideoFont1 %tmp.18 29 26 36 ];
         %tmp.18 = getv ? :VideoFont1;
         %tmp.19 = "!";
         symbol [ Graphics %tmp.20 29 41 49 ];
         %tmp.20 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.21 29 50 69 ];
-        %tmp.21 = getv %tmp.20 :TEXT_JUSTIFY_CENTER;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.21 29 50 67 ];
+        %tmp.21 = getv %tmp.20 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.13 %tmp.14(%tmp.15, %tmp.16, %tmp.18, %tmp.19, %tmp.21);
 _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_24_40_31_4_stop:
     }

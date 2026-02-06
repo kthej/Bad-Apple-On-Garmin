@@ -1,8 +1,8 @@
 import os, shutil, cv2
 from PIL import Image
 
-backup_folder = r"Video Frames Manipulation/frames_backup"
-working_folder = r"Video Frames Manipulation/frames_filtered"
+backup_folder = "Video Frames Manipulation/frames_backup"
+working_folder = "Video Frames Manipulation/frames_filtered"
 
 #Function to return paths of all files in a folder
 
@@ -26,6 +26,7 @@ for file in returnContents(working_folder):
 os.remove("bad_apple.mp4")
 
 # Video and Frames Configuration
+generate_frames = False
 generate_video = False
 framerate = 5
 width = 100
@@ -71,6 +72,10 @@ print(f"Total Frames: {len(returnContents(working_folder))}")
 print(f"Number of .fnt files: {(total_frames // 200 ) + 1}")
 
 #Transform Result Frames into .fnt file (for Garmin Handling)
+
+# create new image for the sheet (will be tall)
+frames_per_font = 50
+image_sheet = Image.new("1", (width, height * frames_per_font))
 
 
 

@@ -8,8 +8,9 @@ class Bad_Apple_AppView extends WatchUi.View {
     }
 
     // Load your resources here
+    public var VideoFont1;
     function onLayout(dc as Dc) as Void {
-    
+        VideoFont1 = WatchUi.loadResource(Rez.Fonts.VideoFont1);
         dc.clear();
     }
 
@@ -24,8 +25,8 @@ class Bad_Apple_AppView extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         dc.clear();
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
-        dc.drawText(50,50,Graphics.FONT_AUX1,"Hello",Graphics.TEXT_JUSTIFY_CENTER);
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(88,50,VideoFont1,"!",Graphics.TEXT_JUSTIFY_CENTER);
         
     }
 

@@ -1,6 +1,7 @@
 import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
+import Toybox.Timer;
 
 class Bad_Apple_AppApp extends Application.AppBase {
 
@@ -14,6 +15,7 @@ class Bad_Apple_AppApp extends Application.AppBase {
 
     // onStop() is called when your application is exiting
     function onStop(state as Dictionary?) as Void {
+        
     }
 
     // Return the initial view of your application here

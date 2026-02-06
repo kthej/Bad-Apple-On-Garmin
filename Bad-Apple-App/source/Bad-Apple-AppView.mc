@@ -1,6 +1,6 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
-
+public var animationTimer;
 class Bad_Apple_AppView extends WatchUi.View {
 
     function initialize() {
@@ -9,6 +9,10 @@ class Bad_Apple_AppView extends WatchUi.View {
 
     // Load your resources here
     public var VideoFont1;
+    public var selectFrameIndex = 0;
+    public var selectSectionIndex = 0;
+    
+    
     function onLayout(dc as Dc) as Void {
         VideoFont1 = WatchUi.loadResource(Rez.Fonts.VideoFont0);
         dc.clear();
@@ -17,7 +21,14 @@ class Bad_Apple_AppView extends WatchUi.View {
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
+    function nextFrame() as Void{
+        selectFrameIndex++;
+        WatchUi.requestUpdate();
+    }
     function onShow() as Void {
+        var animationTimer = new Timer.Timer();
+        animationTimer.start(method(:nextFrame),200,true);
+
     }
 
     // Update the view
@@ -26,7 +37,7 @@ class Bad_Apple_AppView extends WatchUi.View {
         View.onUpdate(dc);
         dc.clear();
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(38,75,VideoFont1,"A",Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(38,75,VideoFont1,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT);
         
     }
 

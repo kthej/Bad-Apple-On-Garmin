@@ -12,6 +12,27 @@ module Rez {
 
     module Fonts {
         (:initialized) var VideoFont0 as ResourceId;
+        (:initialized) var VideoFont1 as ResourceId;
+        (:initialized) var VideoFont2 as ResourceId;
+        (:initialized) var VideoFont3 as ResourceId;
+        (:initialized) var VideoFont4 as ResourceId;
+        (:initialized) var VideoFont5 as ResourceId;
+        (:initialized) var VideoFont6 as ResourceId;
+        (:initialized) var VideoFont7 as ResourceId;
+        (:initialized) var VideoFont8 as ResourceId;
+        (:initialized) var VideoFont9 as ResourceId;
+        (:initialized) var VideoFont10 as ResourceId;
+        (:initialized) var VideoFont11 as ResourceId;
+        (:initialized) var VideoFont12 as ResourceId;
+        (:initialized) var VideoFont13 as ResourceId;
+        (:initialized) var VideoFont14 as ResourceId;
+        (:initialized) var VideoFont15 as ResourceId;
+        (:initialized) var VideoFont16 as ResourceId;
+        (:initialized) var VideoFont17 as ResourceId;
+        (:initialized) var VideoFont18 as ResourceId;
+        (:initialized) var VideoFont19 as ResourceId;
+        (:initialized) var VideoFont20 as ResourceId;
+        (:initialized) var VideoFont21 as ResourceId;
     } // Fonts
 
     module Layouts {

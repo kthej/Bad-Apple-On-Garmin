@@ -1,5 +1,26 @@
 <resources>
     <fonts>
-        <font id="VideoFont0" filename="section_0.fnt"/>
+    <font id="VideoFont0" filename="section_0.fnt"/>
+    <font id="VideoFont1" filename="section_1.fnt"/>
+    <font id="VideoFont2" filename="section_2.fnt"/>
+    <font id="VideoFont3" filename="section_3.fnt"/>
+    <font id="VideoFont4" filename="section_4.fnt"/>
+    <font id="VideoFont5" filename="section_5.fnt"/>
+    <font id="VideoFont6" filename="section_6.fnt"/>
+    <font id="VideoFont7" filename="section_7.fnt"/>
+    <font id="VideoFont8" filename="section_8.fnt"/>
+    <font id="VideoFont9" filename="section_9.fnt"/>
+    <font id="VideoFont10" filename="section_10.fnt"/>
+    <font id="VideoFont11" filename="section_11.fnt"/>
+    <font id="VideoFont12" filename="section_12.fnt"/>
+    <font id="VideoFont13" filename="section_13.fnt"/>
+    <font id="VideoFont14" filename="section_14.fnt"/>
+    <font id="VideoFont15" filename="section_15.fnt"/>
+    <font id="VideoFont16" filename="section_16.fnt"/>
+    <font id="VideoFont17" filename="section_17.fnt"/>
+    <font id="VideoFont18" filename="section_18.fnt"/>
+    <font id="VideoFont19" filename="section_19.fnt"/>
+    <font id="VideoFont20" filename="section_20.fnt"/>
+    <font id="VideoFont21" filename="section_21.fnt"/>
     </fonts>
 </resources>

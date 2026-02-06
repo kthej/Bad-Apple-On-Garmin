@@ -12,4 +12,11 @@ class Bad_Apple_AppDelegate extends WatchUi.BehaviorDelegate {
         System.exit();
     }
 
+
+    function onMenu() as Boolean { 
+    
+      $.animationTimer = 0;
+      return true;
+    }
+
 }

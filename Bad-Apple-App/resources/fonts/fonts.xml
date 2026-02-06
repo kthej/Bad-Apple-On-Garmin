@@ -1,5 +1,5 @@
 <resources>
     <fonts>
-        <font id="VideoFont1" filename="Unnamed.fnt"/>
+        <font id="VideoFont0" filename="section_0.fnt"/>
     </fonts>
 </resources>

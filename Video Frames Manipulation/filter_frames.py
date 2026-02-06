@@ -84,7 +84,7 @@ frames_per_font = 50
 for file in returnContents("Video Frames Manipulation/fnt_creation"):
         os.remove(f"Video Frames Manipulation/fnt_creation/{file}")
 
-for chapter in range(0, total_frames // frames_per_font):
+for chapter in range(0, (total_frames // frames_per_font)+1):
 
     current_section_filename =f"Video Frames Manipulation/fnt_creation/section_{chapter}.fnt"
     current_section_file = open(current_section_filename, "a")

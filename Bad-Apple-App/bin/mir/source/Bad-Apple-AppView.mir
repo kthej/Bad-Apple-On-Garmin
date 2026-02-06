@@ -37,8 +37,8 @@ _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_A
         %tmp.4 = getv ? :Rez;
         symbol [ Fonts %tmp.5 13 46 51 ];
         %tmp.5 = getv %tmp.4 :Fonts;
-        symbol [ VideoFont1 %tmp.6 13 52 62 ];
-        %tmp.6 = getv %tmp.5 :VideoFont1;
+        symbol [ VideoFont0 %tmp.6 13 52 62 ];
+        %tmp.6 = getv %tmp.5 :VideoFont0;
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
         symbol [ VideoFont1 ? 13 8 18 ];
         putv self :VideoFont1 %tmp.7;
@@ -93,7 +93,7 @@ _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_A
         %tmp.16 = 75;
         symbol [ VideoFont1 %tmp.18 29 26 36 ];
         %tmp.18 = getv ? :VideoFont1;
-        %tmp.19 = "!";
+        %tmp.19 = "A";
         symbol [ Graphics %tmp.20 29 41 49 ];
         %tmp.20 = getm $.Toybox.Graphics;
         symbol [ TEXT_JUSTIFY_LEFT %tmp.21 29 50 67 ];

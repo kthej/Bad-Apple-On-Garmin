@@ -47,7 +47,7 @@
         <entry id="6" module="true" symbol="globals/Rez/Menus"/>
         <entry id="16" method="true" symbol="MainLayout"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="18" symbol="AppName"/>
+        <entry field="true" id="19" symbol="AppName"/>
         <entry id="7" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
@@ -55,15 +55,15 @@
         <entry id="8389081" method="true" symbol="onBack"/>
         <entry id="8" object="true" symbol="Bad_Apple_AppApp"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="21" symbol="prompt"/>
+        <entry field="true" id="22" symbol="prompt"/>
         <entry field="true" id="15" symbol="id_monkey"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="23" symbol="item_2"/>
-        <entry id="22" symbol="item_1"/>
+        <entry id="24" symbol="item_2"/>
+        <entry id="23" symbol="item_1"/>
         <entry id="12" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
@@ -88,11 +88,12 @@
         <entry field="true" id="8389347" symbol="color"/>
         <entry id="11" module="true" symbol="Layouts"/>
         <entry field="true" id="13" symbol="VideoFont1"/>
+        <entry field="true" id="18" symbol="VideoFont0"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="20" symbol="menu_label_2"/>
-        <entry field="true" id="19" symbol="menu_label_1"/>
+        <entry field="true" id="21" symbol="menu_label_2"/>
+        <entry field="true" id="20" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435684" name="dc" stackId="1" startPc="268435636"/>
@@ -109,7 +110,7 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="VideoFont1"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="VideoFont0"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
     </annotations>
     <dataEntryOffsetMappings>

@@ -28,8 +28,8 @@ module Rez {
         [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/bin/gen/006-B4585-00/source/Rez.mcgen"; @line = 13; ]
         <init> {
         }
-        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/bin/gen/006-B4585-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [VideoFont1,14,27,37]; @symbol_type<0> = [ResourceId,14,41,51]; ]
-        var VideoFont1 as ResourceId;
+        [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/bin/gen/006-B4585-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [VideoFont0,14,27,37]; @symbol_type<0> = [ResourceId,14,41,51]; ]
+        var VideoFont0 as ResourceId;
     }
     [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/bin/gen/006-B4585-00/source/Rez.mcgen"; @line = 17; @symbol_moduledef = [Layouts,17,11,18]; ]
     module Layouts {

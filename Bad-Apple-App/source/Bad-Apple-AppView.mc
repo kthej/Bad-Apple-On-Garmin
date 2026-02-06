@@ -1,3 +1,9 @@
+/*
+
+Pretty cool right? What's even cooler is the fact that I wrote this all myself, with no AI writing any of the code!
+
+*/
+
 import Toybox.Graphics;
 import Toybox.WatchUi;
 var animationTimer;
@@ -79,6 +85,7 @@ class Bad_Apple_AppView extends WatchUi.View {
         else if(selectSectionIndex == 19){VideoFont19 = WatchUi.loadResource(Rez.Fonts.VideoFont19); VideoFont18 = null;}
         else if(selectSectionIndex == 20){VideoFont20 = WatchUi.loadResource(Rez.Fonts.VideoFont20); VideoFont19 = null;}
         else if(selectSectionIndex == 21){VideoFont21 = WatchUi.loadResource(Rez.Fonts.VideoFont21); VideoFont20 = null;}
+        
         WatchUi.requestUpdate(); 
     }
 
@@ -95,7 +102,7 @@ class Bad_Apple_AppView extends WatchUi.View {
         View.onUpdate(dc);
         dc.clear();
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        //Please forgive me
+        //Please forgive me, I am new t
         if (selectSectionIndex == 0){dc.drawText(7,26,VideoFont0,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
         else if(selectSectionIndex == 1){dc.drawText(7,26,VideoFont1,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
         else if(selectSectionIndex == 2){dc.drawText(7,26,VideoFont2,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }

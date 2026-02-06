@@ -1,171 +1,1684 @@
-[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Graphics,7,14,22]; ]
 import Toybox.Graphics;
-[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [WatchUi,8,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 3; @position = 4; @symbol_vardef = [animationTimer,3,4,18]; ]
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 9; @position = 4; @symbol_vardef = [animationTimer,9,4,18]; ]
 var animationTimer;
-[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 4; @symbol_classdef = [Bad_Apple_AppView,4,6,23]; @symbol_extends<0> = [WatchUi,4,32,39]; @symbol_extends<1> = [View,4,40,44]; ]
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 11; @position = 11; @symbol_vardef = [VideoFont0,11,11,21]; ]
+var VideoFont0;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 12; @position = 11; @symbol_vardef = [VideoFont1,12,11,21]; ]
+var VideoFont1;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 13; @position = 11; @symbol_vardef = [VideoFont2,13,11,21]; ]
+var VideoFont2;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 14; @position = 11; @symbol_vardef = [VideoFont3,14,11,21]; ]
+var VideoFont3;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 15; @position = 11; @symbol_vardef = [VideoFont4,15,11,21]; ]
+var VideoFont4;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 16; @position = 11; @symbol_vardef = [VideoFont5,16,11,21]; ]
+var VideoFont5;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 17; @position = 11; @symbol_vardef = [VideoFont6,17,11,21]; ]
+var VideoFont6;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 18; @position = 11; @symbol_vardef = [VideoFont7,18,11,21]; ]
+var VideoFont7;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 19; @position = 11; @symbol_vardef = [VideoFont8,19,11,21]; ]
+var VideoFont8;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 20; @position = 11; @symbol_vardef = [VideoFont9,20,11,21]; ]
+var VideoFont9;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 21; @position = 11; @symbol_vardef = [VideoFont10,21,11,22]; ]
+var VideoFont10;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 22; @position = 11; @symbol_vardef = [VideoFont11,22,11,22]; ]
+var VideoFont11;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 23; @position = 11; @symbol_vardef = [VideoFont12,23,11,22]; ]
+var VideoFont12;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 24; @position = 11; @symbol_vardef = [VideoFont13,24,11,22]; ]
+var VideoFont13;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 25; @position = 11; @symbol_vardef = [VideoFont14,25,11,22]; ]
+var VideoFont14;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 26; @position = 11; @symbol_vardef = [VideoFont15,26,11,22]; ]
+var VideoFont15;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 27; @position = 11; @symbol_vardef = [VideoFont16,27,11,22]; ]
+var VideoFont16;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 28; @position = 11; @symbol_vardef = [VideoFont17,28,11,22]; ]
+var VideoFont17;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 29; @position = 11; @symbol_vardef = [VideoFont18,29,11,22]; ]
+var VideoFont18;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 30; @position = 11; @symbol_vardef = [VideoFont19,30,11,22]; ]
+var VideoFont19;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 31; @position = 11; @symbol_vardef = [VideoFont20,31,11,22]; ]
+var VideoFont20;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 32; @position = 11; @symbol_vardef = [VideoFont21,32,11,22]; ]
+var VideoFont21;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 34; @position = 11; @symbol_vardef = [selectFrameIndex,34,11,27]; ]
+var selectFrameIndex = 0;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 35; @position = 11; @symbol_vardef = [selectSectionIndex,35,11,29]; ]
+var selectSectionIndex = 0;
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 37; @symbol_classdef = [Bad_Apple_AppView,37,6,23]; @symbol_extends<0> = [WatchUi,37,32,39]; @symbol_extends<1> = [View,37,40,44]; ]
 class Bad_Apple_AppView extends WatchUi.View {
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 4; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 37; ]
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 4; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 37; ]
     static
     <init> {
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 39; @symbol_functiondef = [initialize,39,13,23]; ]
     function initialize() as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_6_26_8_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 7 8 ]
-        symbol [ View %tmp.2 7 8 12 ];
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_39_26_41_4_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 40 8 ]
+        symbol [ View %tmp.2 40 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ initialize %tmp.3 7 13 23 ];
+        symbol [ initialize %tmp.3 40 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_6_26_8_4_stop:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_39_26_41_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 11; @position = 15; @symbol_vardef = [VideoFont1,11,15,25]; ]
-    public
-    var VideoFont1;
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 12; @position = 15; @symbol_vardef = [selectFrameIndex,12,15,31]; ]
-    public
-    var selectFrameIndex = 0;
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 13; @position = 15; @symbol_vardef = [selectSectionIndex,13,15,33]; ]
-    public
-    var selectSectionIndex = 0;
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 16; @symbol_functiondef = [onLayout,16,13,21]; @symbol_param<0> = [dc,16,22,24]; @symbol_param<0>_type<0> = [Dc,16,28,30]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 47; @symbol_functiondef = [onLayout,47,13,21]; @symbol_param<0> = [dc,47,22,24]; @symbol_param<0>_type<0> = [Dc,47,28,30]; ]
     function onLayout(dc as Dc) as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_16_40_19_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 17 8 ]
-        symbol [ WatchUi %tmp.1 17 21 28 ];
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_47_40_51_4_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 48 8 ]
+        symbol [ WatchUi %tmp.1 48 21 28 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ loadResource %tmp.2 17 29 41 ];
+        symbol [ loadResource %tmp.2 48 29 41 ];
         %tmp.2 = getv function %tmp.1 :loadResource;
-        symbol [ Rez %tmp.4 17 42 45 ];
+        symbol [ Rez %tmp.4 48 42 45 ];
         %tmp.4 = getv ? :Rez;
-        symbol [ Fonts %tmp.5 17 46 51 ];
+        symbol [ Fonts %tmp.5 48 46 51 ];
         %tmp.5 = getv %tmp.4 :Fonts;
-        symbol [ VideoFont0 %tmp.6 17 52 62 ];
+        symbol [ VideoFont0 %tmp.6 48 52 62 ];
         %tmp.6 = getv %tmp.5 :VideoFont0;
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
-        symbol [ VideoFont1 ? 17 8 18 ];
-        putv self :VideoFont1 %tmp.7;
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 18 8 ]
+        symbol [ VideoFont0 ? 48 8 18 ];
+        putv self :VideoFont0 %tmp.7;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 50 8 ]
         %tmp.8 = lgetv %dc;
-        symbol [ dc %tmp.8 18 8 10 ];
-        symbol [ clear %tmp.9 18 11 16 ];
+        symbol [ dc %tmp.8 50 8 10 ];
+        symbol [ clear %tmp.9 50 11 16 ];
         %tmp.9 = getv function %tmp.8 :clear;
         invoke %tmp.8 %tmp.9();
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_16_40_19_4_stop:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_47_40_51_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 24; @symbol_functiondef = [nextFrame,24,13,22]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 56; @symbol_functiondef = [nextFrame,56,13,22]; ]
     function nextFrame() as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_24_32_27_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 25 8 ]
-        symbol [ selectFrameIndex %tmp.3 25 8 24 ];
-        %tmp.3 = getv ? :selectFrameIndex;
-        %tmp.4 = add %tmp.3 1;
-        symbol [ selectFrameIndex ? 25 8 24 ];
-        putv self :selectFrameIndex dup %tmp.4;
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 26 8 ]
-        symbol [ WatchUi %tmp.5 26 8 15 ];
-        %tmp.5 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.6 26 16 29 ];
-        %tmp.6 = getv function %tmp.5 :requestUpdate;
-        invoke %tmp.5 %tmp.6();
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_24_32_27_4_stop:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_56_32_90_4_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 58 8 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_stmt:
+        symbol [ selectFrameIndex %tmp.2 58 11 27 ];
+        %tmp.2 = getv ? :selectFrameIndex;
+        %tmp.3 = 49;
+        %tmp.4 = lt %tmp.2 %tmp.3;
+        bf %tmp.4 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_33_60_8_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 59 12 ]
+        symbol [ selectFrameIndex %tmp.7 59 12 28 ];
+        %tmp.7 = getv ? :selectFrameIndex;
+        %tmp.8 = add %tmp.7 1;
+        symbol [ selectFrameIndex ? 59 12 28 ];
+        putv self :selectFrameIndex dup %tmp.8;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_33_60_8_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 61 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_stmt:
+        symbol [ selectFrameIndex %tmp.10 61 16 32 ];
+        %tmp.10 = getv ? :selectFrameIndex;
+        %tmp.11 = 49;
+        %tmp.12 = eq %tmp.10 %tmp.11;
+        bf %tmp.12 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_39_64_8_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 62 12 ]
+        symbol [ selectSectionIndex %tmp.15 62 12 30 ];
+        %tmp.15 = getv ? :selectSectionIndex;
+        %tmp.16 = add %tmp.15 1;
+        symbol [ selectSectionIndex ? 62 12 30 ];
+        putv self :selectSectionIndex dup %tmp.16;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 63 12 ]
+        %tmp.17 = 0;
+        symbol [ selectFrameIndex ? 63 12 28 ];
+        putv self :selectFrameIndex %tmp.17;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_39_64_8_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_end:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 67 8 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_8_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.19 67 11 29 ];
+        %tmp.19 = getv ? :selectSectionIndex;
+        %tmp.20 = 1;
+        %tmp.21 = eq %tmp.19 %tmp.20;
+        bf %tmp.21 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_8_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_8_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_35_67_111_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 67 36 ]
+        symbol [ WatchUi %tmp.22 67 49 56 ];
+        %tmp.22 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.23 67 57 69 ];
+        %tmp.23 = getv function %tmp.22 :loadResource;
+        symbol [ Rez %tmp.25 67 70 73 ];
+        %tmp.25 = getv ? :Rez;
+        symbol [ Fonts %tmp.26 67 74 79 ];
+        %tmp.26 = getv %tmp.25 :Fonts;
+        symbol [ VideoFont1 %tmp.27 67 80 90 ];
+        %tmp.27 = getv %tmp.26 :VideoFont1;
+        %tmp.28 = invoke %tmp.22 %tmp.23(%tmp.27);
+        symbol [ VideoFont1 ? 67 36 46 ];
+        putv self :VideoFont1 %tmp.28;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 67 93 ]
+        %tmp.29 = null;
+        symbol [ VideoFont0 ? 67 93 103 ];
+        putv self :VideoFont0 %tmp.29;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_35_67_111_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_8_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_8_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 68 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.31 68 16 34 ];
+        %tmp.31 = getv ? :selectSectionIndex;
+        %tmp.32 = 2;
+        %tmp.33 = eq %tmp.31 %tmp.32;
+        bf %tmp.33 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_40_68_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 68 41 ]
+        symbol [ WatchUi %tmp.34 68 54 61 ];
+        %tmp.34 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.35 68 62 74 ];
+        %tmp.35 = getv function %tmp.34 :loadResource;
+        symbol [ Rez %tmp.37 68 75 78 ];
+        %tmp.37 = getv ? :Rez;
+        symbol [ Fonts %tmp.38 68 79 84 ];
+        %tmp.38 = getv %tmp.37 :Fonts;
+        symbol [ VideoFont2 %tmp.39 68 85 95 ];
+        %tmp.39 = getv %tmp.38 :VideoFont2;
+        %tmp.40 = invoke %tmp.34 %tmp.35(%tmp.39);
+        symbol [ VideoFont2 ? 68 41 51 ];
+        putv self :VideoFont2 %tmp.40;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 68 98 ]
+        %tmp.41 = null;
+        symbol [ VideoFont1 ? 68 98 108 ];
+        putv self :VideoFont1 %tmp.41;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_40_68_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 69 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.43 69 16 34 ];
+        %tmp.43 = getv ? :selectSectionIndex;
+        %tmp.44 = 3;
+        %tmp.45 = eq %tmp.43 %tmp.44;
+        bf %tmp.45 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_40_69_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 69 41 ]
+        symbol [ WatchUi %tmp.46 69 54 61 ];
+        %tmp.46 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.47 69 62 74 ];
+        %tmp.47 = getv function %tmp.46 :loadResource;
+        symbol [ Rez %tmp.49 69 75 78 ];
+        %tmp.49 = getv ? :Rez;
+        symbol [ Fonts %tmp.50 69 79 84 ];
+        %tmp.50 = getv %tmp.49 :Fonts;
+        symbol [ VideoFont3 %tmp.51 69 85 95 ];
+        %tmp.51 = getv %tmp.50 :VideoFont3;
+        %tmp.52 = invoke %tmp.46 %tmp.47(%tmp.51);
+        symbol [ VideoFont3 ? 69 41 51 ];
+        putv self :VideoFont3 %tmp.52;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 69 98 ]
+        %tmp.53 = null;
+        symbol [ VideoFont2 ? 69 98 108 ];
+        putv self :VideoFont2 %tmp.53;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_40_69_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 70 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.55 70 16 34 ];
+        %tmp.55 = getv ? :selectSectionIndex;
+        %tmp.56 = 4;
+        %tmp.57 = eq %tmp.55 %tmp.56;
+        bf %tmp.57 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_40_70_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 70 41 ]
+        symbol [ WatchUi %tmp.58 70 54 61 ];
+        %tmp.58 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.59 70 62 74 ];
+        %tmp.59 = getv function %tmp.58 :loadResource;
+        symbol [ Rez %tmp.61 70 75 78 ];
+        %tmp.61 = getv ? :Rez;
+        symbol [ Fonts %tmp.62 70 79 84 ];
+        %tmp.62 = getv %tmp.61 :Fonts;
+        symbol [ VideoFont4 %tmp.63 70 85 95 ];
+        %tmp.63 = getv %tmp.62 :VideoFont4;
+        %tmp.64 = invoke %tmp.58 %tmp.59(%tmp.63);
+        symbol [ VideoFont4 ? 70 41 51 ];
+        putv self :VideoFont4 %tmp.64;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 70 98 ]
+        %tmp.65 = null;
+        symbol [ VideoFont3 ? 70 98 108 ];
+        putv self :VideoFont3 %tmp.65;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_40_70_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 71 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.67 71 16 34 ];
+        %tmp.67 = getv ? :selectSectionIndex;
+        %tmp.68 = 5;
+        %tmp.69 = eq %tmp.67 %tmp.68;
+        bf %tmp.69 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_40_71_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 71 41 ]
+        symbol [ WatchUi %tmp.70 71 54 61 ];
+        %tmp.70 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.71 71 62 74 ];
+        %tmp.71 = getv function %tmp.70 :loadResource;
+        symbol [ Rez %tmp.73 71 75 78 ];
+        %tmp.73 = getv ? :Rez;
+        symbol [ Fonts %tmp.74 71 79 84 ];
+        %tmp.74 = getv %tmp.73 :Fonts;
+        symbol [ VideoFont5 %tmp.75 71 85 95 ];
+        %tmp.75 = getv %tmp.74 :VideoFont5;
+        %tmp.76 = invoke %tmp.70 %tmp.71(%tmp.75);
+        symbol [ VideoFont5 ? 71 41 51 ];
+        putv self :VideoFont5 %tmp.76;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 71 98 ]
+        %tmp.77 = null;
+        symbol [ VideoFont4 ? 71 98 108 ];
+        putv self :VideoFont4 %tmp.77;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_40_71_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 72 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.79 72 16 34 ];
+        %tmp.79 = getv ? :selectSectionIndex;
+        %tmp.80 = 6;
+        %tmp.81 = eq %tmp.79 %tmp.80;
+        bf %tmp.81 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_40_72_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 72 41 ]
+        symbol [ WatchUi %tmp.82 72 54 61 ];
+        %tmp.82 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.83 72 62 74 ];
+        %tmp.83 = getv function %tmp.82 :loadResource;
+        symbol [ Rez %tmp.85 72 75 78 ];
+        %tmp.85 = getv ? :Rez;
+        symbol [ Fonts %tmp.86 72 79 84 ];
+        %tmp.86 = getv %tmp.85 :Fonts;
+        symbol [ VideoFont6 %tmp.87 72 85 95 ];
+        %tmp.87 = getv %tmp.86 :VideoFont6;
+        %tmp.88 = invoke %tmp.82 %tmp.83(%tmp.87);
+        symbol [ VideoFont6 ? 72 41 51 ];
+        putv self :VideoFont6 %tmp.88;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 72 98 ]
+        %tmp.89 = null;
+        symbol [ VideoFont5 ? 72 98 108 ];
+        putv self :VideoFont5 %tmp.89;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_40_72_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 73 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.91 73 16 34 ];
+        %tmp.91 = getv ? :selectSectionIndex;
+        %tmp.92 = 7;
+        %tmp.93 = eq %tmp.91 %tmp.92;
+        bf %tmp.93 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_40_73_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 73 41 ]
+        symbol [ WatchUi %tmp.94 73 54 61 ];
+        %tmp.94 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.95 73 62 74 ];
+        %tmp.95 = getv function %tmp.94 :loadResource;
+        symbol [ Rez %tmp.97 73 75 78 ];
+        %tmp.97 = getv ? :Rez;
+        symbol [ Fonts %tmp.98 73 79 84 ];
+        %tmp.98 = getv %tmp.97 :Fonts;
+        symbol [ VideoFont7 %tmp.99 73 85 95 ];
+        %tmp.99 = getv %tmp.98 :VideoFont7;
+        %tmp.100 = invoke %tmp.94 %tmp.95(%tmp.99);
+        symbol [ VideoFont7 ? 73 41 51 ];
+        putv self :VideoFont7 %tmp.100;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 73 98 ]
+        %tmp.101 = null;
+        symbol [ VideoFont6 ? 73 98 108 ];
+        putv self :VideoFont6 %tmp.101;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_40_73_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 74 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.103 74 16 34 ];
+        %tmp.103 = getv ? :selectSectionIndex;
+        %tmp.104 = 8;
+        %tmp.105 = eq %tmp.103 %tmp.104;
+        bf %tmp.105 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_40_74_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 74 41 ]
+        symbol [ WatchUi %tmp.106 74 54 61 ];
+        %tmp.106 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.107 74 62 74 ];
+        %tmp.107 = getv function %tmp.106 :loadResource;
+        symbol [ Rez %tmp.109 74 75 78 ];
+        %tmp.109 = getv ? :Rez;
+        symbol [ Fonts %tmp.110 74 79 84 ];
+        %tmp.110 = getv %tmp.109 :Fonts;
+        symbol [ VideoFont8 %tmp.111 74 85 95 ];
+        %tmp.111 = getv %tmp.110 :VideoFont8;
+        %tmp.112 = invoke %tmp.106 %tmp.107(%tmp.111);
+        symbol [ VideoFont8 ? 74 41 51 ];
+        putv self :VideoFont8 %tmp.112;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 74 98 ]
+        %tmp.113 = null;
+        symbol [ VideoFont7 ? 74 98 108 ];
+        putv self :VideoFont7 %tmp.113;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_40_74_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 75 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.115 75 16 34 ];
+        %tmp.115 = getv ? :selectSectionIndex;
+        %tmp.116 = 9;
+        %tmp.117 = eq %tmp.115 %tmp.116;
+        bf %tmp.117 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_40_75_116_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 75 41 ]
+        symbol [ WatchUi %tmp.118 75 54 61 ];
+        %tmp.118 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.119 75 62 74 ];
+        %tmp.119 = getv function %tmp.118 :loadResource;
+        symbol [ Rez %tmp.121 75 75 78 ];
+        %tmp.121 = getv ? :Rez;
+        symbol [ Fonts %tmp.122 75 79 84 ];
+        %tmp.122 = getv %tmp.121 :Fonts;
+        symbol [ VideoFont9 %tmp.123 75 85 95 ];
+        %tmp.123 = getv %tmp.122 :VideoFont9;
+        %tmp.124 = invoke %tmp.118 %tmp.119(%tmp.123);
+        symbol [ VideoFont9 ? 75 41 51 ];
+        putv self :VideoFont9 %tmp.124;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 75 98 ]
+        %tmp.125 = null;
+        symbol [ VideoFont8 ? 75 98 108 ];
+        putv self :VideoFont8 %tmp.125;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_40_75_116_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 76 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.127 76 16 34 ];
+        %tmp.127 = getv ? :selectSectionIndex;
+        %tmp.128 = 10;
+        %tmp.129 = eq %tmp.127 %tmp.128;
+        bf %tmp.129 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_41_76_119_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 76 42 ]
+        symbol [ WatchUi %tmp.130 76 56 63 ];
+        %tmp.130 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.131 76 64 76 ];
+        %tmp.131 = getv function %tmp.130 :loadResource;
+        symbol [ Rez %tmp.133 76 77 80 ];
+        %tmp.133 = getv ? :Rez;
+        symbol [ Fonts %tmp.134 76 81 86 ];
+        %tmp.134 = getv %tmp.133 :Fonts;
+        symbol [ VideoFont10 %tmp.135 76 87 98 ];
+        %tmp.135 = getv %tmp.134 :VideoFont10;
+        %tmp.136 = invoke %tmp.130 %tmp.131(%tmp.135);
+        symbol [ VideoFont10 ? 76 42 53 ];
+        putv self :VideoFont10 %tmp.136;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 76 101 ]
+        %tmp.137 = null;
+        symbol [ VideoFont9 ? 76 101 111 ];
+        putv self :VideoFont9 %tmp.137;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_41_76_119_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 77 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.139 77 16 34 ];
+        %tmp.139 = getv ? :selectSectionIndex;
+        %tmp.140 = 11;
+        %tmp.141 = eq %tmp.139 %tmp.140;
+        bf %tmp.141 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_41_77_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 77 42 ]
+        symbol [ WatchUi %tmp.142 77 56 63 ];
+        %tmp.142 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.143 77 64 76 ];
+        %tmp.143 = getv function %tmp.142 :loadResource;
+        symbol [ Rez %tmp.145 77 77 80 ];
+        %tmp.145 = getv ? :Rez;
+        symbol [ Fonts %tmp.146 77 81 86 ];
+        %tmp.146 = getv %tmp.145 :Fonts;
+        symbol [ VideoFont11 %tmp.147 77 87 98 ];
+        %tmp.147 = getv %tmp.146 :VideoFont11;
+        %tmp.148 = invoke %tmp.142 %tmp.143(%tmp.147);
+        symbol [ VideoFont11 ? 77 42 53 ];
+        putv self :VideoFont11 %tmp.148;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 77 101 ]
+        %tmp.149 = null;
+        symbol [ VideoFont10 ? 77 101 112 ];
+        putv self :VideoFont10 %tmp.149;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_41_77_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 78 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.151 78 16 34 ];
+        %tmp.151 = getv ? :selectSectionIndex;
+        %tmp.152 = 12;
+        %tmp.153 = eq %tmp.151 %tmp.152;
+        bf %tmp.153 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_41_78_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 78 42 ]
+        symbol [ WatchUi %tmp.154 78 56 63 ];
+        %tmp.154 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.155 78 64 76 ];
+        %tmp.155 = getv function %tmp.154 :loadResource;
+        symbol [ Rez %tmp.157 78 77 80 ];
+        %tmp.157 = getv ? :Rez;
+        symbol [ Fonts %tmp.158 78 81 86 ];
+        %tmp.158 = getv %tmp.157 :Fonts;
+        symbol [ VideoFont12 %tmp.159 78 87 98 ];
+        %tmp.159 = getv %tmp.158 :VideoFont12;
+        %tmp.160 = invoke %tmp.154 %tmp.155(%tmp.159);
+        symbol [ VideoFont12 ? 78 42 53 ];
+        putv self :VideoFont12 %tmp.160;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 78 101 ]
+        %tmp.161 = null;
+        symbol [ VideoFont11 ? 78 101 112 ];
+        putv self :VideoFont11 %tmp.161;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_41_78_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 79 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.163 79 16 34 ];
+        %tmp.163 = getv ? :selectSectionIndex;
+        %tmp.164 = 13;
+        %tmp.165 = eq %tmp.163 %tmp.164;
+        bf %tmp.165 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_41_79_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 79 42 ]
+        symbol [ WatchUi %tmp.166 79 56 63 ];
+        %tmp.166 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.167 79 64 76 ];
+        %tmp.167 = getv function %tmp.166 :loadResource;
+        symbol [ Rez %tmp.169 79 77 80 ];
+        %tmp.169 = getv ? :Rez;
+        symbol [ Fonts %tmp.170 79 81 86 ];
+        %tmp.170 = getv %tmp.169 :Fonts;
+        symbol [ VideoFont13 %tmp.171 79 87 98 ];
+        %tmp.171 = getv %tmp.170 :VideoFont13;
+        %tmp.172 = invoke %tmp.166 %tmp.167(%tmp.171);
+        symbol [ VideoFont13 ? 79 42 53 ];
+        putv self :VideoFont13 %tmp.172;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 79 101 ]
+        %tmp.173 = null;
+        symbol [ VideoFont12 ? 79 101 112 ];
+        putv self :VideoFont12 %tmp.173;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_41_79_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 80 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.175 80 16 34 ];
+        %tmp.175 = getv ? :selectSectionIndex;
+        %tmp.176 = 14;
+        %tmp.177 = eq %tmp.175 %tmp.176;
+        bf %tmp.177 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_41_80_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 80 42 ]
+        symbol [ WatchUi %tmp.178 80 56 63 ];
+        %tmp.178 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.179 80 64 76 ];
+        %tmp.179 = getv function %tmp.178 :loadResource;
+        symbol [ Rez %tmp.181 80 77 80 ];
+        %tmp.181 = getv ? :Rez;
+        symbol [ Fonts %tmp.182 80 81 86 ];
+        %tmp.182 = getv %tmp.181 :Fonts;
+        symbol [ VideoFont14 %tmp.183 80 87 98 ];
+        %tmp.183 = getv %tmp.182 :VideoFont14;
+        %tmp.184 = invoke %tmp.178 %tmp.179(%tmp.183);
+        symbol [ VideoFont14 ? 80 42 53 ];
+        putv self :VideoFont14 %tmp.184;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 80 101 ]
+        %tmp.185 = null;
+        symbol [ VideoFont13 ? 80 101 112 ];
+        putv self :VideoFont13 %tmp.185;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_41_80_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 81 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.187 81 16 34 ];
+        %tmp.187 = getv ? :selectSectionIndex;
+        %tmp.188 = 15;
+        %tmp.189 = eq %tmp.187 %tmp.188;
+        bf %tmp.189 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_41_81_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 81 42 ]
+        symbol [ WatchUi %tmp.190 81 56 63 ];
+        %tmp.190 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.191 81 64 76 ];
+        %tmp.191 = getv function %tmp.190 :loadResource;
+        symbol [ Rez %tmp.193 81 77 80 ];
+        %tmp.193 = getv ? :Rez;
+        symbol [ Fonts %tmp.194 81 81 86 ];
+        %tmp.194 = getv %tmp.193 :Fonts;
+        symbol [ VideoFont15 %tmp.195 81 87 98 ];
+        %tmp.195 = getv %tmp.194 :VideoFont15;
+        %tmp.196 = invoke %tmp.190 %tmp.191(%tmp.195);
+        symbol [ VideoFont15 ? 81 42 53 ];
+        putv self :VideoFont15 %tmp.196;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 81 101 ]
+        %tmp.197 = null;
+        symbol [ VideoFont14 ? 81 101 112 ];
+        putv self :VideoFont14 %tmp.197;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_41_81_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 82 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.199 82 16 34 ];
+        %tmp.199 = getv ? :selectSectionIndex;
+        %tmp.200 = 16;
+        %tmp.201 = eq %tmp.199 %tmp.200;
+        bf %tmp.201 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_41_82_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 82 42 ]
+        symbol [ WatchUi %tmp.202 82 56 63 ];
+        %tmp.202 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.203 82 64 76 ];
+        %tmp.203 = getv function %tmp.202 :loadResource;
+        symbol [ Rez %tmp.205 82 77 80 ];
+        %tmp.205 = getv ? :Rez;
+        symbol [ Fonts %tmp.206 82 81 86 ];
+        %tmp.206 = getv %tmp.205 :Fonts;
+        symbol [ VideoFont16 %tmp.207 82 87 98 ];
+        %tmp.207 = getv %tmp.206 :VideoFont16;
+        %tmp.208 = invoke %tmp.202 %tmp.203(%tmp.207);
+        symbol [ VideoFont16 ? 82 42 53 ];
+        putv self :VideoFont16 %tmp.208;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 82 101 ]
+        %tmp.209 = null;
+        symbol [ VideoFont15 ? 82 101 112 ];
+        putv self :VideoFont15 %tmp.209;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_41_82_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 83 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.211 83 16 34 ];
+        %tmp.211 = getv ? :selectSectionIndex;
+        %tmp.212 = 17;
+        %tmp.213 = eq %tmp.211 %tmp.212;
+        bf %tmp.213 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_41_83_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 83 42 ]
+        symbol [ WatchUi %tmp.214 83 56 63 ];
+        %tmp.214 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.215 83 64 76 ];
+        %tmp.215 = getv function %tmp.214 :loadResource;
+        symbol [ Rez %tmp.217 83 77 80 ];
+        %tmp.217 = getv ? :Rez;
+        symbol [ Fonts %tmp.218 83 81 86 ];
+        %tmp.218 = getv %tmp.217 :Fonts;
+        symbol [ VideoFont17 %tmp.219 83 87 98 ];
+        %tmp.219 = getv %tmp.218 :VideoFont17;
+        %tmp.220 = invoke %tmp.214 %tmp.215(%tmp.219);
+        symbol [ VideoFont17 ? 83 42 53 ];
+        putv self :VideoFont17 %tmp.220;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 83 101 ]
+        %tmp.221 = null;
+        symbol [ VideoFont16 ? 83 101 112 ];
+        putv self :VideoFont16 %tmp.221;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_41_83_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 84 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.223 84 16 34 ];
+        %tmp.223 = getv ? :selectSectionIndex;
+        %tmp.224 = 18;
+        %tmp.225 = eq %tmp.223 %tmp.224;
+        bf %tmp.225 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_41_84_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 84 42 ]
+        symbol [ WatchUi %tmp.226 84 56 63 ];
+        %tmp.226 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.227 84 64 76 ];
+        %tmp.227 = getv function %tmp.226 :loadResource;
+        symbol [ Rez %tmp.229 84 77 80 ];
+        %tmp.229 = getv ? :Rez;
+        symbol [ Fonts %tmp.230 84 81 86 ];
+        %tmp.230 = getv %tmp.229 :Fonts;
+        symbol [ VideoFont18 %tmp.231 84 87 98 ];
+        %tmp.231 = getv %tmp.230 :VideoFont18;
+        %tmp.232 = invoke %tmp.226 %tmp.227(%tmp.231);
+        symbol [ VideoFont18 ? 84 42 53 ];
+        putv self :VideoFont18 %tmp.232;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 84 101 ]
+        %tmp.233 = null;
+        symbol [ VideoFont17 ? 84 101 112 ];
+        putv self :VideoFont17 %tmp.233;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_41_84_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 85 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.235 85 16 34 ];
+        %tmp.235 = getv ? :selectSectionIndex;
+        %tmp.236 = 19;
+        %tmp.237 = eq %tmp.235 %tmp.236;
+        bf %tmp.237 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_41_85_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 85 42 ]
+        symbol [ WatchUi %tmp.238 85 56 63 ];
+        %tmp.238 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.239 85 64 76 ];
+        %tmp.239 = getv function %tmp.238 :loadResource;
+        symbol [ Rez %tmp.241 85 77 80 ];
+        %tmp.241 = getv ? :Rez;
+        symbol [ Fonts %tmp.242 85 81 86 ];
+        %tmp.242 = getv %tmp.241 :Fonts;
+        symbol [ VideoFont19 %tmp.243 85 87 98 ];
+        %tmp.243 = getv %tmp.242 :VideoFont19;
+        %tmp.244 = invoke %tmp.238 %tmp.239(%tmp.243);
+        symbol [ VideoFont19 ? 85 42 53 ];
+        putv self :VideoFont19 %tmp.244;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 85 101 ]
+        %tmp.245 = null;
+        symbol [ VideoFont18 ? 85 101 112 ];
+        putv self :VideoFont18 %tmp.245;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_41_85_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 86 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.247 86 16 34 ];
+        %tmp.247 = getv ? :selectSectionIndex;
+        %tmp.248 = 20;
+        %tmp.249 = eq %tmp.247 %tmp.248;
+        bf %tmp.249 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_13_87_120_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_41_86_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 86 42 ]
+        symbol [ WatchUi %tmp.250 86 56 63 ];
+        %tmp.250 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.251 86 64 76 ];
+        %tmp.251 = getv function %tmp.250 :loadResource;
+        symbol [ Rez %tmp.253 86 77 80 ];
+        %tmp.253 = getv ? :Rez;
+        symbol [ Fonts %tmp.254 86 81 86 ];
+        %tmp.254 = getv %tmp.253 :Fonts;
+        symbol [ VideoFont20 %tmp.255 86 87 98 ];
+        %tmp.255 = getv %tmp.254 :VideoFont20;
+        %tmp.256 = invoke %tmp.250 %tmp.251(%tmp.255);
+        symbol [ VideoFont20 ? 86 42 53 ];
+        putv self :VideoFont20 %tmp.256;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 86 101 ]
+        %tmp.257 = null;
+        symbol [ VideoFont19 ? 86 101 112 ];
+        putv self :VideoFont19 %tmp.257;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_41_86_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_13_87_120_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 87 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_87_13_87_120_if_stmt:
+        symbol [ selectSectionIndex %tmp.259 87 16 34 ];
+        %tmp.259 = getv ? :selectSectionIndex;
+        %tmp.260 = 21;
+        %tmp.261 = eq %tmp.259 %tmp.260;
+        bf %tmp.261 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_87_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_87_13_87_120_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_87_41_87_120_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 87 42 ]
+        symbol [ WatchUi %tmp.262 87 56 63 ];
+        %tmp.262 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.263 87 64 76 ];
+        %tmp.263 = getv function %tmp.262 :loadResource;
+        symbol [ Rez %tmp.265 87 77 80 ];
+        %tmp.265 = getv ? :Rez;
+        symbol [ Fonts %tmp.266 87 81 86 ];
+        %tmp.266 = getv %tmp.265 :Fonts;
+        symbol [ VideoFont21 %tmp.267 87 87 98 ];
+        %tmp.267 = getv %tmp.266 :VideoFont21;
+        %tmp.268 = invoke %tmp.262 %tmp.263(%tmp.267);
+        symbol [ VideoFont21 ? 87 42 53 ];
+        putv self :VideoFont21 %tmp.268;
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 87 101 ]
+        %tmp.269 = null;
+        symbol [ VideoFont20 ? 87 101 112 ];
+        putv self :VideoFont20 %tmp.269;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_87_41_87_120_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_87_13_87_120_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_87_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_86_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_85_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_84_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_83_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_82_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_81_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_80_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_79_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_78_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_77_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_76_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_75_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_74_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_73_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_72_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_71_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_70_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_69_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_68_13_87_120_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_67_8_87_120_if_end:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 89 8 ]
+        symbol [ WatchUi %tmp.270 89 8 15 ];
+        %tmp.270 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.271 89 16 29 ];
+        %tmp.271 = getv function %tmp.270 :requestUpdate;
+        invoke %tmp.270 %tmp.271();
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_56_32_90_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 28; @symbol_functiondef = [onShow,28,13,19]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 92; @symbol_functiondef = [onShow,92,13,19]; ]
     function onShow() as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_28_30_32_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 29 8 ]
-        [ "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_28_30_32_4_start" "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_28_30_32_4_stop" ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_92_30_97_4_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 93 8 ]
+        [ "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_92_30_97_4_start" "_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_92_30_97_4_stop" ]
         %animationTimer.1 = local;
-        symbol [ animationTimer %animationTimer.1 29 12 26 ];
-        symbol [ Timer %tmp.4 29 33 38 ];
+        symbol [ animationTimer %animationTimer.1 93 12 26 ];
+        symbol [ Timer %tmp.4 93 33 38 ];
         %tmp.4 = getv ? :Timer;
-        symbol [ Timer %tmp.5 29 39 44 ];
+        symbol [ Timer %tmp.5 93 39 44 ];
         %tmp.5 = getv function ? %tmp.4 :Timer;
         %tmp.1 = newc %tmp.5 ();
         lputv %animationTimer.1 %tmp.1;
-        symbol [ animationTimer %animationTimer.1 29 12 26 ];
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 30 8 ]
+        symbol [ animationTimer %animationTimer.1 93 12 26 ];
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 94 8 ]
         %tmp.6 = lgetv %animationTimer.1;
-        symbol [ animationTimer %tmp.6 30 8 22 ];
-        symbol [ start %tmp.7 30 23 28 ];
+        symbol [ animationTimer %tmp.6 94 8 22 ];
+        symbol [ start %tmp.7 94 23 28 ];
         %tmp.7 = getv function %tmp.6 :start;
         %tmp.8 = self;
-        symbol [ method %tmp.9 30 29 35 ];
+        symbol [ method %tmp.9 94 29 35 ];
         %tmp.9 = getv function %tmp.8 :method;
         %tmp.11 = const :nextFrame;
-        symbol [ nextFrame %tmp.11 30 37 46 const ];
+        symbol [ nextFrame %tmp.11 94 37 46 const ];
         %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.11);
         %tmp.13 = 200;
         %tmp.14 = true;
         invoke %tmp.6 %tmp.7(%tmp.12, %tmp.13, %tmp.14);
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_28_30_32_4_stop:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_92_30_97_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 35; @symbol_functiondef = [onUpdate,35,13,21]; @symbol_param<0> = [dc,35,22,24]; @symbol_param<0>_type<0> = [Dc,35,28,30]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 100; @symbol_functiondef = [onUpdate,100,13,21]; @symbol_param<0> = [dc,100,22,24]; @symbol_param<0>_type<0> = [Dc,100,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_35_40_42_4_start:
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 37 8 ]
-        symbol [ View %tmp.2 37 8 12 ];
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_100_40_130_4_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 102 8 ]
+        symbol [ View %tmp.2 102 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ onUpdate %tmp.3 37 13 21 ];
+        symbol [ onUpdate %tmp.3 102 13 21 ];
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 37 22 24 ];
+        symbol [ dc %tmp.4 102 22 24 ];
         invoke %tmp.2 %tmp.3(%tmp.4);
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 38 8 ]
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 103 8 ]
         %tmp.5 = lgetv %dc;
-        symbol [ dc %tmp.5 38 8 10 ];
-        symbol [ clear %tmp.6 38 11 16 ];
+        symbol [ dc %tmp.5 103 8 10 ];
+        symbol [ clear %tmp.6 103 11 16 ];
         %tmp.6 = getv function %tmp.5 :clear;
         invoke %tmp.5 %tmp.6();
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 39 8 ]
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 104 8 ]
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 39 8 10 ];
-        symbol [ setColor %tmp.8 39 11 19 ];
+        symbol [ dc %tmp.7 104 8 10 ];
+        symbol [ setColor %tmp.8 104 11 19 ];
         %tmp.8 = getv function %tmp.7 :setColor;
-        symbol [ Graphics %tmp.9 39 20 28 ];
+        symbol [ Graphics %tmp.9 104 20 28 ];
         %tmp.9 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.10 39 29 40 ];
+        symbol [ COLOR_WHITE %tmp.10 104 29 40 ];
         %tmp.10 = getv %tmp.9 :COLOR_WHITE;
-        symbol [ Graphics %tmp.11 39 42 50 ];
+        symbol [ Graphics %tmp.11 104 42 50 ];
         %tmp.11 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.12 39 51 68 ];
+        symbol [ COLOR_TRANSPARENT %tmp.12 104 51 68 ];
         %tmp.12 = getv %tmp.11 :COLOR_TRANSPARENT;
         invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
-[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 40 8 ]
-        %tmp.13 = lgetv %dc;
-        symbol [ dc %tmp.13 40 8 10 ];
-        symbol [ drawText %tmp.14 40 11 19 ];
-        %tmp.14 = getv function %tmp.13 :drawText;
-        %tmp.15 = 7;
-        %tmp.16 = 28;
-        symbol [ VideoFont1 %tmp.18 40 25 35 ];
-        %tmp.18 = getv ? :VideoFont1;
-        %tmp.19 = 33;
-        symbol [ selectFrameIndex %tmp.21 40 40 56 ];
-        %tmp.21 = getv ? :selectFrameIndex;
-        %tmp.22 = add %tmp.19 %tmp.21;
-        symbol [ toChar %tmp.23 40 58 64 ];
-        %tmp.23 = getv function %tmp.22 :toChar;
-        %tmp.24 = invoke %tmp.22 %tmp.23();
-        symbol [ toString %tmp.25 40 67 75 ];
-        %tmp.25 = getv function %tmp.24 :toString;
-        %tmp.26 = invoke %tmp.24 %tmp.25();
-        symbol [ Graphics %tmp.27 40 78 86 ];
-        %tmp.27 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.28 40 87 104 ];
-        %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.13 %tmp.14(%tmp.15, %tmp.16, %tmp.18, %tmp.26, %tmp.28);
-_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_35_40_42_4_stop:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 106 8 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_8_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.14 106 12 30 ];
+        %tmp.14 = getv ? :selectSectionIndex;
+        %tmp.15 = 0;
+        %tmp.16 = eq %tmp.14 %tmp.15;
+        bf %tmp.16 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_8_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_8_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_36_106_136_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 106 37 ]
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 106 37 39 ];
+        symbol [ drawText %tmp.18 106 40 48 ];
+        %tmp.18 = getv function %tmp.17 :drawText;
+        %tmp.19 = 7;
+        %tmp.20 = 26;
+        symbol [ VideoFont0 %tmp.22 106 54 64 ];
+        %tmp.22 = getv ? :VideoFont0;
+        %tmp.23 = 33;
+        symbol [ selectFrameIndex %tmp.25 106 69 85 ];
+        %tmp.25 = getv ? :selectFrameIndex;
+        %tmp.26 = add %tmp.23 %tmp.25;
+        symbol [ toChar %tmp.27 106 87 93 ];
+        %tmp.27 = getv function %tmp.26 :toChar;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        symbol [ toString %tmp.29 106 96 104 ];
+        %tmp.29 = getv function %tmp.28 :toString;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        symbol [ Graphics %tmp.31 106 107 115 ];
+        %tmp.31 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.32 106 116 133 ];
+        %tmp.32 = getv %tmp.31 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20, %tmp.22, %tmp.30, %tmp.32);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_36_106_136_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_8_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_8_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 107 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.34 107 16 34 ];
+        %tmp.34 = getv ? :selectSectionIndex;
+        %tmp.35 = 1;
+        %tmp.36 = eq %tmp.34 %tmp.35;
+        bf %tmp.36 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_40_107_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 107 41 ]
+        %tmp.37 = lgetv %dc;
+        symbol [ dc %tmp.37 107 41 43 ];
+        symbol [ drawText %tmp.38 107 44 52 ];
+        %tmp.38 = getv function %tmp.37 :drawText;
+        %tmp.39 = 7;
+        %tmp.40 = 26;
+        symbol [ VideoFont1 %tmp.42 107 58 68 ];
+        %tmp.42 = getv ? :VideoFont1;
+        %tmp.43 = 33;
+        symbol [ selectFrameIndex %tmp.45 107 73 89 ];
+        %tmp.45 = getv ? :selectFrameIndex;
+        %tmp.46 = add %tmp.43 %tmp.45;
+        symbol [ toChar %tmp.47 107 91 97 ];
+        %tmp.47 = getv function %tmp.46 :toChar;
+        %tmp.48 = invoke %tmp.46 %tmp.47();
+        symbol [ toString %tmp.49 107 100 108 ];
+        %tmp.49 = getv function %tmp.48 :toString;
+        %tmp.50 = invoke %tmp.48 %tmp.49();
+        symbol [ Graphics %tmp.51 107 111 119 ];
+        %tmp.51 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.52 107 120 137 ];
+        %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40, %tmp.42, %tmp.50, %tmp.52);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_40_107_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 108 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.54 108 16 34 ];
+        %tmp.54 = getv ? :selectSectionIndex;
+        %tmp.55 = 2;
+        %tmp.56 = eq %tmp.54 %tmp.55;
+        bf %tmp.56 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_40_108_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 108 41 ]
+        %tmp.57 = lgetv %dc;
+        symbol [ dc %tmp.57 108 41 43 ];
+        symbol [ drawText %tmp.58 108 44 52 ];
+        %tmp.58 = getv function %tmp.57 :drawText;
+        %tmp.59 = 7;
+        %tmp.60 = 26;
+        symbol [ VideoFont2 %tmp.62 108 58 68 ];
+        %tmp.62 = getv ? :VideoFont2;
+        %tmp.63 = 33;
+        symbol [ selectFrameIndex %tmp.65 108 73 89 ];
+        %tmp.65 = getv ? :selectFrameIndex;
+        %tmp.66 = add %tmp.63 %tmp.65;
+        symbol [ toChar %tmp.67 108 91 97 ];
+        %tmp.67 = getv function %tmp.66 :toChar;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        symbol [ toString %tmp.69 108 100 108 ];
+        %tmp.69 = getv function %tmp.68 :toString;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        symbol [ Graphics %tmp.71 108 111 119 ];
+        %tmp.71 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.72 108 120 137 ];
+        %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.57 %tmp.58(%tmp.59, %tmp.60, %tmp.62, %tmp.70, %tmp.72);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_40_108_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 109 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.74 109 16 34 ];
+        %tmp.74 = getv ? :selectSectionIndex;
+        %tmp.75 = 3;
+        %tmp.76 = eq %tmp.74 %tmp.75;
+        bf %tmp.76 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_40_109_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 109 41 ]
+        %tmp.77 = lgetv %dc;
+        symbol [ dc %tmp.77 109 41 43 ];
+        symbol [ drawText %tmp.78 109 44 52 ];
+        %tmp.78 = getv function %tmp.77 :drawText;
+        %tmp.79 = 7;
+        %tmp.80 = 26;
+        symbol [ VideoFont3 %tmp.82 109 58 68 ];
+        %tmp.82 = getv ? :VideoFont3;
+        %tmp.83 = 33;
+        symbol [ selectFrameIndex %tmp.85 109 73 89 ];
+        %tmp.85 = getv ? :selectFrameIndex;
+        %tmp.86 = add %tmp.83 %tmp.85;
+        symbol [ toChar %tmp.87 109 91 97 ];
+        %tmp.87 = getv function %tmp.86 :toChar;
+        %tmp.88 = invoke %tmp.86 %tmp.87();
+        symbol [ toString %tmp.89 109 100 108 ];
+        %tmp.89 = getv function %tmp.88 :toString;
+        %tmp.90 = invoke %tmp.88 %tmp.89();
+        symbol [ Graphics %tmp.91 109 111 119 ];
+        %tmp.91 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.92 109 120 137 ];
+        %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.77 %tmp.78(%tmp.79, %tmp.80, %tmp.82, %tmp.90, %tmp.92);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_40_109_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 110 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.94 110 16 34 ];
+        %tmp.94 = getv ? :selectSectionIndex;
+        %tmp.95 = 4;
+        %tmp.96 = eq %tmp.94 %tmp.95;
+        bf %tmp.96 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_40_110_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 110 41 ]
+        %tmp.97 = lgetv %dc;
+        symbol [ dc %tmp.97 110 41 43 ];
+        symbol [ drawText %tmp.98 110 44 52 ];
+        %tmp.98 = getv function %tmp.97 :drawText;
+        %tmp.99 = 7;
+        %tmp.100 = 26;
+        symbol [ VideoFont4 %tmp.102 110 58 68 ];
+        %tmp.102 = getv ? :VideoFont4;
+        %tmp.103 = 33;
+        symbol [ selectFrameIndex %tmp.105 110 73 89 ];
+        %tmp.105 = getv ? :selectFrameIndex;
+        %tmp.106 = add %tmp.103 %tmp.105;
+        symbol [ toChar %tmp.107 110 91 97 ];
+        %tmp.107 = getv function %tmp.106 :toChar;
+        %tmp.108 = invoke %tmp.106 %tmp.107();
+        symbol [ toString %tmp.109 110 100 108 ];
+        %tmp.109 = getv function %tmp.108 :toString;
+        %tmp.110 = invoke %tmp.108 %tmp.109();
+        symbol [ Graphics %tmp.111 110 111 119 ];
+        %tmp.111 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.112 110 120 137 ];
+        %tmp.112 = getv %tmp.111 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.97 %tmp.98(%tmp.99, %tmp.100, %tmp.102, %tmp.110, %tmp.112);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_40_110_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 111 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.114 111 16 34 ];
+        %tmp.114 = getv ? :selectSectionIndex;
+        %tmp.115 = 5;
+        %tmp.116 = eq %tmp.114 %tmp.115;
+        bf %tmp.116 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_40_111_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 111 41 ]
+        %tmp.117 = lgetv %dc;
+        symbol [ dc %tmp.117 111 41 43 ];
+        symbol [ drawText %tmp.118 111 44 52 ];
+        %tmp.118 = getv function %tmp.117 :drawText;
+        %tmp.119 = 7;
+        %tmp.120 = 26;
+        symbol [ VideoFont5 %tmp.122 111 58 68 ];
+        %tmp.122 = getv ? :VideoFont5;
+        %tmp.123 = 33;
+        symbol [ selectFrameIndex %tmp.125 111 73 89 ];
+        %tmp.125 = getv ? :selectFrameIndex;
+        %tmp.126 = add %tmp.123 %tmp.125;
+        symbol [ toChar %tmp.127 111 91 97 ];
+        %tmp.127 = getv function %tmp.126 :toChar;
+        %tmp.128 = invoke %tmp.126 %tmp.127();
+        symbol [ toString %tmp.129 111 100 108 ];
+        %tmp.129 = getv function %tmp.128 :toString;
+        %tmp.130 = invoke %tmp.128 %tmp.129();
+        symbol [ Graphics %tmp.131 111 111 119 ];
+        %tmp.131 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.132 111 120 137 ];
+        %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.117 %tmp.118(%tmp.119, %tmp.120, %tmp.122, %tmp.130, %tmp.132);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_40_111_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 112 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.134 112 16 34 ];
+        %tmp.134 = getv ? :selectSectionIndex;
+        %tmp.135 = 6;
+        %tmp.136 = eq %tmp.134 %tmp.135;
+        bf %tmp.136 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_40_112_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 112 41 ]
+        %tmp.137 = lgetv %dc;
+        symbol [ dc %tmp.137 112 41 43 ];
+        symbol [ drawText %tmp.138 112 44 52 ];
+        %tmp.138 = getv function %tmp.137 :drawText;
+        %tmp.139 = 7;
+        %tmp.140 = 26;
+        symbol [ VideoFont6 %tmp.142 112 58 68 ];
+        %tmp.142 = getv ? :VideoFont6;
+        %tmp.143 = 33;
+        symbol [ selectFrameIndex %tmp.145 112 73 89 ];
+        %tmp.145 = getv ? :selectFrameIndex;
+        %tmp.146 = add %tmp.143 %tmp.145;
+        symbol [ toChar %tmp.147 112 91 97 ];
+        %tmp.147 = getv function %tmp.146 :toChar;
+        %tmp.148 = invoke %tmp.146 %tmp.147();
+        symbol [ toString %tmp.149 112 100 108 ];
+        %tmp.149 = getv function %tmp.148 :toString;
+        %tmp.150 = invoke %tmp.148 %tmp.149();
+        symbol [ Graphics %tmp.151 112 111 119 ];
+        %tmp.151 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.152 112 120 137 ];
+        %tmp.152 = getv %tmp.151 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.137 %tmp.138(%tmp.139, %tmp.140, %tmp.142, %tmp.150, %tmp.152);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_40_112_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 113 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.154 113 16 34 ];
+        %tmp.154 = getv ? :selectSectionIndex;
+        %tmp.155 = 7;
+        %tmp.156 = eq %tmp.154 %tmp.155;
+        bf %tmp.156 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_40_113_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 113 41 ]
+        %tmp.157 = lgetv %dc;
+        symbol [ dc %tmp.157 113 41 43 ];
+        symbol [ drawText %tmp.158 113 44 52 ];
+        %tmp.158 = getv function %tmp.157 :drawText;
+        %tmp.159 = 7;
+        %tmp.160 = 26;
+        symbol [ VideoFont7 %tmp.162 113 58 68 ];
+        %tmp.162 = getv ? :VideoFont7;
+        %tmp.163 = 33;
+        symbol [ selectFrameIndex %tmp.165 113 73 89 ];
+        %tmp.165 = getv ? :selectFrameIndex;
+        %tmp.166 = add %tmp.163 %tmp.165;
+        symbol [ toChar %tmp.167 113 91 97 ];
+        %tmp.167 = getv function %tmp.166 :toChar;
+        %tmp.168 = invoke %tmp.166 %tmp.167();
+        symbol [ toString %tmp.169 113 100 108 ];
+        %tmp.169 = getv function %tmp.168 :toString;
+        %tmp.170 = invoke %tmp.168 %tmp.169();
+        symbol [ Graphics %tmp.171 113 111 119 ];
+        %tmp.171 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.172 113 120 137 ];
+        %tmp.172 = getv %tmp.171 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.157 %tmp.158(%tmp.159, %tmp.160, %tmp.162, %tmp.170, %tmp.172);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_40_113_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 114 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.174 114 16 34 ];
+        %tmp.174 = getv ? :selectSectionIndex;
+        %tmp.175 = 8;
+        %tmp.176 = eq %tmp.174 %tmp.175;
+        bf %tmp.176 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_40_114_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 114 41 ]
+        %tmp.177 = lgetv %dc;
+        symbol [ dc %tmp.177 114 41 43 ];
+        symbol [ drawText %tmp.178 114 44 52 ];
+        %tmp.178 = getv function %tmp.177 :drawText;
+        %tmp.179 = 7;
+        %tmp.180 = 26;
+        symbol [ VideoFont8 %tmp.182 114 58 68 ];
+        %tmp.182 = getv ? :VideoFont8;
+        %tmp.183 = 33;
+        symbol [ selectFrameIndex %tmp.185 114 73 89 ];
+        %tmp.185 = getv ? :selectFrameIndex;
+        %tmp.186 = add %tmp.183 %tmp.185;
+        symbol [ toChar %tmp.187 114 91 97 ];
+        %tmp.187 = getv function %tmp.186 :toChar;
+        %tmp.188 = invoke %tmp.186 %tmp.187();
+        symbol [ toString %tmp.189 114 100 108 ];
+        %tmp.189 = getv function %tmp.188 :toString;
+        %tmp.190 = invoke %tmp.188 %tmp.189();
+        symbol [ Graphics %tmp.191 114 111 119 ];
+        %tmp.191 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.192 114 120 137 ];
+        %tmp.192 = getv %tmp.191 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.177 %tmp.178(%tmp.179, %tmp.180, %tmp.182, %tmp.190, %tmp.192);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_40_114_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 115 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.194 115 16 34 ];
+        %tmp.194 = getv ? :selectSectionIndex;
+        %tmp.195 = 9;
+        %tmp.196 = eq %tmp.194 %tmp.195;
+        bf %tmp.196 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_40_115_140_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 115 41 ]
+        %tmp.197 = lgetv %dc;
+        symbol [ dc %tmp.197 115 41 43 ];
+        symbol [ drawText %tmp.198 115 44 52 ];
+        %tmp.198 = getv function %tmp.197 :drawText;
+        %tmp.199 = 7;
+        %tmp.200 = 26;
+        symbol [ VideoFont9 %tmp.202 115 58 68 ];
+        %tmp.202 = getv ? :VideoFont9;
+        %tmp.203 = 33;
+        symbol [ selectFrameIndex %tmp.205 115 73 89 ];
+        %tmp.205 = getv ? :selectFrameIndex;
+        %tmp.206 = add %tmp.203 %tmp.205;
+        symbol [ toChar %tmp.207 115 91 97 ];
+        %tmp.207 = getv function %tmp.206 :toChar;
+        %tmp.208 = invoke %tmp.206 %tmp.207();
+        symbol [ toString %tmp.209 115 100 108 ];
+        %tmp.209 = getv function %tmp.208 :toString;
+        %tmp.210 = invoke %tmp.208 %tmp.209();
+        symbol [ Graphics %tmp.211 115 111 119 ];
+        %tmp.211 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.212 115 120 137 ];
+        %tmp.212 = getv %tmp.211 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.197 %tmp.198(%tmp.199, %tmp.200, %tmp.202, %tmp.210, %tmp.212);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_40_115_140_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 116 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.214 116 16 34 ];
+        %tmp.214 = getv ? :selectSectionIndex;
+        %tmp.215 = 10;
+        %tmp.216 = eq %tmp.214 %tmp.215;
+        bf %tmp.216 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_41_116_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 116 42 ]
+        %tmp.217 = lgetv %dc;
+        symbol [ dc %tmp.217 116 42 44 ];
+        symbol [ drawText %tmp.218 116 45 53 ];
+        %tmp.218 = getv function %tmp.217 :drawText;
+        %tmp.219 = 7;
+        %tmp.220 = 26;
+        symbol [ VideoFont10 %tmp.222 116 59 70 ];
+        %tmp.222 = getv ? :VideoFont10;
+        %tmp.223 = 33;
+        symbol [ selectFrameIndex %tmp.225 116 75 91 ];
+        %tmp.225 = getv ? :selectFrameIndex;
+        %tmp.226 = add %tmp.223 %tmp.225;
+        symbol [ toChar %tmp.227 116 93 99 ];
+        %tmp.227 = getv function %tmp.226 :toChar;
+        %tmp.228 = invoke %tmp.226 %tmp.227();
+        symbol [ toString %tmp.229 116 102 110 ];
+        %tmp.229 = getv function %tmp.228 :toString;
+        %tmp.230 = invoke %tmp.228 %tmp.229();
+        symbol [ Graphics %tmp.231 116 113 121 ];
+        %tmp.231 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.232 116 122 139 ];
+        %tmp.232 = getv %tmp.231 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.217 %tmp.218(%tmp.219, %tmp.220, %tmp.222, %tmp.230, %tmp.232);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_41_116_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 117 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.234 117 16 34 ];
+        %tmp.234 = getv ? :selectSectionIndex;
+        %tmp.235 = 11;
+        %tmp.236 = eq %tmp.234 %tmp.235;
+        bf %tmp.236 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_41_117_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 117 42 ]
+        %tmp.237 = lgetv %dc;
+        symbol [ dc %tmp.237 117 42 44 ];
+        symbol [ drawText %tmp.238 117 45 53 ];
+        %tmp.238 = getv function %tmp.237 :drawText;
+        %tmp.239 = 7;
+        %tmp.240 = 26;
+        symbol [ VideoFont11 %tmp.242 117 59 70 ];
+        %tmp.242 = getv ? :VideoFont11;
+        %tmp.243 = 33;
+        symbol [ selectFrameIndex %tmp.245 117 75 91 ];
+        %tmp.245 = getv ? :selectFrameIndex;
+        %tmp.246 = add %tmp.243 %tmp.245;
+        symbol [ toChar %tmp.247 117 93 99 ];
+        %tmp.247 = getv function %tmp.246 :toChar;
+        %tmp.248 = invoke %tmp.246 %tmp.247();
+        symbol [ toString %tmp.249 117 102 110 ];
+        %tmp.249 = getv function %tmp.248 :toString;
+        %tmp.250 = invoke %tmp.248 %tmp.249();
+        symbol [ Graphics %tmp.251 117 113 121 ];
+        %tmp.251 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.252 117 122 139 ];
+        %tmp.252 = getv %tmp.251 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.237 %tmp.238(%tmp.239, %tmp.240, %tmp.242, %tmp.250, %tmp.252);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_41_117_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 118 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.254 118 16 34 ];
+        %tmp.254 = getv ? :selectSectionIndex;
+        %tmp.255 = 12;
+        %tmp.256 = eq %tmp.254 %tmp.255;
+        bf %tmp.256 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_41_118_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 118 42 ]
+        %tmp.257 = lgetv %dc;
+        symbol [ dc %tmp.257 118 42 44 ];
+        symbol [ drawText %tmp.258 118 45 53 ];
+        %tmp.258 = getv function %tmp.257 :drawText;
+        %tmp.259 = 7;
+        %tmp.260 = 26;
+        symbol [ VideoFont12 %tmp.262 118 59 70 ];
+        %tmp.262 = getv ? :VideoFont12;
+        %tmp.263 = 33;
+        symbol [ selectFrameIndex %tmp.265 118 75 91 ];
+        %tmp.265 = getv ? :selectFrameIndex;
+        %tmp.266 = add %tmp.263 %tmp.265;
+        symbol [ toChar %tmp.267 118 93 99 ];
+        %tmp.267 = getv function %tmp.266 :toChar;
+        %tmp.268 = invoke %tmp.266 %tmp.267();
+        symbol [ toString %tmp.269 118 102 110 ];
+        %tmp.269 = getv function %tmp.268 :toString;
+        %tmp.270 = invoke %tmp.268 %tmp.269();
+        symbol [ Graphics %tmp.271 118 113 121 ];
+        %tmp.271 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.272 118 122 139 ];
+        %tmp.272 = getv %tmp.271 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.257 %tmp.258(%tmp.259, %tmp.260, %tmp.262, %tmp.270, %tmp.272);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_41_118_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 119 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.274 119 16 34 ];
+        %tmp.274 = getv ? :selectSectionIndex;
+        %tmp.275 = 13;
+        %tmp.276 = eq %tmp.274 %tmp.275;
+        bf %tmp.276 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_41_119_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 119 42 ]
+        %tmp.277 = lgetv %dc;
+        symbol [ dc %tmp.277 119 42 44 ];
+        symbol [ drawText %tmp.278 119 45 53 ];
+        %tmp.278 = getv function %tmp.277 :drawText;
+        %tmp.279 = 7;
+        %tmp.280 = 26;
+        symbol [ VideoFont13 %tmp.282 119 59 70 ];
+        %tmp.282 = getv ? :VideoFont13;
+        %tmp.283 = 33;
+        symbol [ selectFrameIndex %tmp.285 119 75 91 ];
+        %tmp.285 = getv ? :selectFrameIndex;
+        %tmp.286 = add %tmp.283 %tmp.285;
+        symbol [ toChar %tmp.287 119 93 99 ];
+        %tmp.287 = getv function %tmp.286 :toChar;
+        %tmp.288 = invoke %tmp.286 %tmp.287();
+        symbol [ toString %tmp.289 119 102 110 ];
+        %tmp.289 = getv function %tmp.288 :toString;
+        %tmp.290 = invoke %tmp.288 %tmp.289();
+        symbol [ Graphics %tmp.291 119 113 121 ];
+        %tmp.291 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.292 119 122 139 ];
+        %tmp.292 = getv %tmp.291 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.277 %tmp.278(%tmp.279, %tmp.280, %tmp.282, %tmp.290, %tmp.292);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_41_119_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 120 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.294 120 16 34 ];
+        %tmp.294 = getv ? :selectSectionIndex;
+        %tmp.295 = 14;
+        %tmp.296 = eq %tmp.294 %tmp.295;
+        bf %tmp.296 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_41_120_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 120 42 ]
+        %tmp.297 = lgetv %dc;
+        symbol [ dc %tmp.297 120 42 44 ];
+        symbol [ drawText %tmp.298 120 45 53 ];
+        %tmp.298 = getv function %tmp.297 :drawText;
+        %tmp.299 = 7;
+        %tmp.300 = 26;
+        symbol [ VideoFont14 %tmp.302 120 59 70 ];
+        %tmp.302 = getv ? :VideoFont14;
+        %tmp.303 = 33;
+        symbol [ selectFrameIndex %tmp.305 120 75 91 ];
+        %tmp.305 = getv ? :selectFrameIndex;
+        %tmp.306 = add %tmp.303 %tmp.305;
+        symbol [ toChar %tmp.307 120 93 99 ];
+        %tmp.307 = getv function %tmp.306 :toChar;
+        %tmp.308 = invoke %tmp.306 %tmp.307();
+        symbol [ toString %tmp.309 120 102 110 ];
+        %tmp.309 = getv function %tmp.308 :toString;
+        %tmp.310 = invoke %tmp.308 %tmp.309();
+        symbol [ Graphics %tmp.311 120 113 121 ];
+        %tmp.311 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.312 120 122 139 ];
+        %tmp.312 = getv %tmp.311 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.297 %tmp.298(%tmp.299, %tmp.300, %tmp.302, %tmp.310, %tmp.312);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_41_120_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 121 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.314 121 16 34 ];
+        %tmp.314 = getv ? :selectSectionIndex;
+        %tmp.315 = 15;
+        %tmp.316 = eq %tmp.314 %tmp.315;
+        bf %tmp.316 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_41_121_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 121 42 ]
+        %tmp.317 = lgetv %dc;
+        symbol [ dc %tmp.317 121 42 44 ];
+        symbol [ drawText %tmp.318 121 45 53 ];
+        %tmp.318 = getv function %tmp.317 :drawText;
+        %tmp.319 = 7;
+        %tmp.320 = 26;
+        symbol [ VideoFont15 %tmp.322 121 59 70 ];
+        %tmp.322 = getv ? :VideoFont15;
+        %tmp.323 = 33;
+        symbol [ selectFrameIndex %tmp.325 121 75 91 ];
+        %tmp.325 = getv ? :selectFrameIndex;
+        %tmp.326 = add %tmp.323 %tmp.325;
+        symbol [ toChar %tmp.327 121 93 99 ];
+        %tmp.327 = getv function %tmp.326 :toChar;
+        %tmp.328 = invoke %tmp.326 %tmp.327();
+        symbol [ toString %tmp.329 121 102 110 ];
+        %tmp.329 = getv function %tmp.328 :toString;
+        %tmp.330 = invoke %tmp.328 %tmp.329();
+        symbol [ Graphics %tmp.331 121 113 121 ];
+        %tmp.331 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.332 121 122 139 ];
+        %tmp.332 = getv %tmp.331 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.317 %tmp.318(%tmp.319, %tmp.320, %tmp.322, %tmp.330, %tmp.332);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_41_121_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 122 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.334 122 16 34 ];
+        %tmp.334 = getv ? :selectSectionIndex;
+        %tmp.335 = 16;
+        %tmp.336 = eq %tmp.334 %tmp.335;
+        bf %tmp.336 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_41_122_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 122 42 ]
+        %tmp.337 = lgetv %dc;
+        symbol [ dc %tmp.337 122 42 44 ];
+        symbol [ drawText %tmp.338 122 45 53 ];
+        %tmp.338 = getv function %tmp.337 :drawText;
+        %tmp.339 = 7;
+        %tmp.340 = 26;
+        symbol [ VideoFont16 %tmp.342 122 59 70 ];
+        %tmp.342 = getv ? :VideoFont16;
+        %tmp.343 = 33;
+        symbol [ selectFrameIndex %tmp.345 122 75 91 ];
+        %tmp.345 = getv ? :selectFrameIndex;
+        %tmp.346 = add %tmp.343 %tmp.345;
+        symbol [ toChar %tmp.347 122 93 99 ];
+        %tmp.347 = getv function %tmp.346 :toChar;
+        %tmp.348 = invoke %tmp.346 %tmp.347();
+        symbol [ toString %tmp.349 122 102 110 ];
+        %tmp.349 = getv function %tmp.348 :toString;
+        %tmp.350 = invoke %tmp.348 %tmp.349();
+        symbol [ Graphics %tmp.351 122 113 121 ];
+        %tmp.351 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.352 122 122 139 ];
+        %tmp.352 = getv %tmp.351 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.337 %tmp.338(%tmp.339, %tmp.340, %tmp.342, %tmp.350, %tmp.352);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_41_122_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 123 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.354 123 16 34 ];
+        %tmp.354 = getv ? :selectSectionIndex;
+        %tmp.355 = 17;
+        %tmp.356 = eq %tmp.354 %tmp.355;
+        bf %tmp.356 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_41_123_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 123 42 ]
+        %tmp.357 = lgetv %dc;
+        symbol [ dc %tmp.357 123 42 44 ];
+        symbol [ drawText %tmp.358 123 45 53 ];
+        %tmp.358 = getv function %tmp.357 :drawText;
+        %tmp.359 = 7;
+        %tmp.360 = 26;
+        symbol [ VideoFont17 %tmp.362 123 59 70 ];
+        %tmp.362 = getv ? :VideoFont17;
+        %tmp.363 = 33;
+        symbol [ selectFrameIndex %tmp.365 123 75 91 ];
+        %tmp.365 = getv ? :selectFrameIndex;
+        %tmp.366 = add %tmp.363 %tmp.365;
+        symbol [ toChar %tmp.367 123 93 99 ];
+        %tmp.367 = getv function %tmp.366 :toChar;
+        %tmp.368 = invoke %tmp.366 %tmp.367();
+        symbol [ toString %tmp.369 123 102 110 ];
+        %tmp.369 = getv function %tmp.368 :toString;
+        %tmp.370 = invoke %tmp.368 %tmp.369();
+        symbol [ Graphics %tmp.371 123 113 121 ];
+        %tmp.371 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.372 123 122 139 ];
+        %tmp.372 = getv %tmp.371 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.357 %tmp.358(%tmp.359, %tmp.360, %tmp.362, %tmp.370, %tmp.372);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_41_123_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 124 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.374 124 16 34 ];
+        %tmp.374 = getv ? :selectSectionIndex;
+        %tmp.375 = 18;
+        %tmp.376 = eq %tmp.374 %tmp.375;
+        bf %tmp.376 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_41_124_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 124 42 ]
+        %tmp.377 = lgetv %dc;
+        symbol [ dc %tmp.377 124 42 44 ];
+        symbol [ drawText %tmp.378 124 45 53 ];
+        %tmp.378 = getv function %tmp.377 :drawText;
+        %tmp.379 = 7;
+        %tmp.380 = 26;
+        symbol [ VideoFont18 %tmp.382 124 59 70 ];
+        %tmp.382 = getv ? :VideoFont18;
+        %tmp.383 = 33;
+        symbol [ selectFrameIndex %tmp.385 124 75 91 ];
+        %tmp.385 = getv ? :selectFrameIndex;
+        %tmp.386 = add %tmp.383 %tmp.385;
+        symbol [ toChar %tmp.387 124 93 99 ];
+        %tmp.387 = getv function %tmp.386 :toChar;
+        %tmp.388 = invoke %tmp.386 %tmp.387();
+        symbol [ toString %tmp.389 124 102 110 ];
+        %tmp.389 = getv function %tmp.388 :toString;
+        %tmp.390 = invoke %tmp.388 %tmp.389();
+        symbol [ Graphics %tmp.391 124 113 121 ];
+        %tmp.391 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.392 124 122 139 ];
+        %tmp.392 = getv %tmp.391 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.377 %tmp.378(%tmp.379, %tmp.380, %tmp.382, %tmp.390, %tmp.392);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_41_124_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 125 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.394 125 16 34 ];
+        %tmp.394 = getv ? :selectSectionIndex;
+        %tmp.395 = 19;
+        %tmp.396 = eq %tmp.394 %tmp.395;
+        bf %tmp.396 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_41_125_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 125 42 ]
+        %tmp.397 = lgetv %dc;
+        symbol [ dc %tmp.397 125 42 44 ];
+        symbol [ drawText %tmp.398 125 45 53 ];
+        %tmp.398 = getv function %tmp.397 :drawText;
+        %tmp.399 = 7;
+        %tmp.400 = 26;
+        symbol [ VideoFont19 %tmp.402 125 59 70 ];
+        %tmp.402 = getv ? :VideoFont19;
+        %tmp.403 = 33;
+        symbol [ selectFrameIndex %tmp.405 125 75 91 ];
+        %tmp.405 = getv ? :selectFrameIndex;
+        %tmp.406 = add %tmp.403 %tmp.405;
+        symbol [ toChar %tmp.407 125 93 99 ];
+        %tmp.407 = getv function %tmp.406 :toChar;
+        %tmp.408 = invoke %tmp.406 %tmp.407();
+        symbol [ toString %tmp.409 125 102 110 ];
+        %tmp.409 = getv function %tmp.408 :toString;
+        %tmp.410 = invoke %tmp.408 %tmp.409();
+        symbol [ Graphics %tmp.411 125 113 121 ];
+        %tmp.411 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.412 125 122 139 ];
+        %tmp.412 = getv %tmp.411 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.397 %tmp.398(%tmp.399, %tmp.400, %tmp.402, %tmp.410, %tmp.412);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_41_125_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 126 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.414 126 16 34 ];
+        %tmp.414 = getv ? :selectSectionIndex;
+        %tmp.415 = 20;
+        %tmp.416 = eq %tmp.414 %tmp.415;
+        bf %tmp.416 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_13_127_142_if_false;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_41_126_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 126 42 ]
+        %tmp.417 = lgetv %dc;
+        symbol [ dc %tmp.417 126 42 44 ];
+        symbol [ drawText %tmp.418 126 45 53 ];
+        %tmp.418 = getv function %tmp.417 :drawText;
+        %tmp.419 = 7;
+        %tmp.420 = 26;
+        symbol [ VideoFont20 %tmp.422 126 59 70 ];
+        %tmp.422 = getv ? :VideoFont20;
+        %tmp.423 = 33;
+        symbol [ selectFrameIndex %tmp.425 126 75 91 ];
+        %tmp.425 = getv ? :selectFrameIndex;
+        %tmp.426 = add %tmp.423 %tmp.425;
+        symbol [ toChar %tmp.427 126 93 99 ];
+        %tmp.427 = getv function %tmp.426 :toChar;
+        %tmp.428 = invoke %tmp.426 %tmp.427();
+        symbol [ toString %tmp.429 126 102 110 ];
+        %tmp.429 = getv function %tmp.428 :toString;
+        %tmp.430 = invoke %tmp.428 %tmp.429();
+        symbol [ Graphics %tmp.431 126 113 121 ];
+        %tmp.431 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.432 126 122 139 ];
+        %tmp.432 = getv %tmp.431 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.417 %tmp.418(%tmp.419, %tmp.420, %tmp.422, %tmp.430, %tmp.432);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_41_126_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_13_127_142_if_false:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 127 13 ]
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_127_13_127_142_if_stmt:
+        symbol [ selectSectionIndex %tmp.434 127 16 34 ];
+        %tmp.434 = getv ? :selectSectionIndex;
+        %tmp.435 = 21;
+        %tmp.436 = eq %tmp.434 %tmp.435;
+        bf %tmp.436 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_127_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_127_13_127_142_if_true:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_127_41_127_142_start:
+[ "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc" 127 42 ]
+        %tmp.437 = lgetv %dc;
+        symbol [ dc %tmp.437 127 42 44 ];
+        symbol [ drawText %tmp.438 127 45 53 ];
+        %tmp.438 = getv function %tmp.437 :drawText;
+        %tmp.439 = 7;
+        %tmp.440 = 26;
+        symbol [ VideoFont21 %tmp.442 127 59 70 ];
+        %tmp.442 = getv ? :VideoFont21;
+        %tmp.443 = 33;
+        symbol [ selectFrameIndex %tmp.445 127 75 91 ];
+        %tmp.445 = getv ? :selectFrameIndex;
+        %tmp.446 = add %tmp.443 %tmp.445;
+        symbol [ toChar %tmp.447 127 93 99 ];
+        %tmp.447 = getv function %tmp.446 :toChar;
+        %tmp.448 = invoke %tmp.446 %tmp.447();
+        symbol [ toString %tmp.449 127 102 110 ];
+        %tmp.449 = getv function %tmp.448 :toString;
+        %tmp.450 = invoke %tmp.448 %tmp.449();
+        symbol [ Graphics %tmp.451 127 113 121 ];
+        %tmp.451 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.452 127 122 139 ];
+        %tmp.452 = getv %tmp.451 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.437 %tmp.438(%tmp.439, %tmp.440, %tmp.442, %tmp.450, %tmp.452);
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_127_41_127_142_stop:
+        goto @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_127_13_127_142_if_end;
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_127_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_126_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_125_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_124_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_123_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_122_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_121_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_120_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_119_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_118_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_117_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_116_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_115_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_114_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_113_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_112_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_111_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_110_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_109_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_108_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_107_13_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_106_8_127_142_if_end:
+_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_100_40_130_4_stop:
     }
-    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 47; @symbol_functiondef = [onHide,47,13,19]; ]
+    [ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 135; @symbol_functiondef = [onHide,135,13,19]; ]
     function onHide() as Void {
     }
 }
-[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 1; ]
+[ @file = "/home/kaden/Documents/Code/GitHub/Bad-Apple-On-Garmin/Bad-Apple-App/source/Bad-Apple-AppView.mc"; @line = 7; ]
 <init> {
 }

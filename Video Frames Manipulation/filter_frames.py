@@ -5,7 +5,7 @@ backup_folder = "Video Frames Manipulation/frames_backup"
 working_folder = "Video Frames Manipulation/frames_filtered"
 
 generate_frames = True
-generate_video = False
+generate_video = True
 generate_specs = True
 
 #Function to return paths of all files in a folder
@@ -30,7 +30,7 @@ f""
 
 # Video and Frames Configuration
 
-framerate = 5
+framerate = 10
 width = 160
 height = 120
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
@@ -79,7 +79,7 @@ if generate_specs == True:
 #Transform Result Frames into .fnt file (for Garmin Handling)
 
 
-frames_per_font = 50
+frames_per_font = 100
 
 for file in returnContents("Video Frames Manipulation/fnt_creation"):
         os.remove(f"Video Frames Manipulation/fnt_creation/{file}")

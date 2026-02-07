@@ -104,7 +104,7 @@ _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_A
 _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_stmt:
         symbol [ selectFrameIndex %tmp.2 58 11 27 ];
         %tmp.2 = getv ? :selectFrameIndex;
-        %tmp.3 = 49;
+        %tmp.3 = 99;
         %tmp.4 = lt %tmp.2 %tmp.3;
         bf %tmp.4 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_false;
 _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_58_8_64_8_if_true:
@@ -122,7 +122,7 @@ _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_A
 _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_stmt:
         symbol [ selectFrameIndex %tmp.10 61 16 32 ];
         %tmp.10 = getv ? :selectFrameIndex;
-        %tmp.11 = 49;
+        %tmp.11 = 99;
         %tmp.12 = eq %tmp.10 %tmp.11;
         bf %tmp.12 @_home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_end;
 _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_61_13_64_8_if_true:
@@ -824,7 +824,7 @@ _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_A
         %tmp.11 = const :nextFrame;
         symbol [ nextFrame %tmp.11 94 37 46 const ];
         %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.11);
-        %tmp.13 = 200;
+        %tmp.13 = 100;
         %tmp.14 = true;
         invoke %tmp.6 %tmp.7(%tmp.12, %tmp.13, %tmp.14);
 _home_kaden_Documents_Code_GitHub_Bad_Apple_On_Garmin_Bad_Apple_App_source_Bad_Apple_AppView_mc_92_30_97_4_stop:

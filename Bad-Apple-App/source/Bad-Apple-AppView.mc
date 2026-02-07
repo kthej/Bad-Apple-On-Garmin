@@ -55,10 +55,10 @@ class Bad_Apple_AppView extends WatchUi.View {
     // loading resources into memory.
     function nextFrame() as Void{
 
-        if(selectFrameIndex < 49){
+        if(selectFrameIndex < 99){
             selectFrameIndex++;
         }
-        else if(selectFrameIndex == 49){
+        else if(selectFrameIndex == 99){
             selectSectionIndex++;
             selectFrameIndex = 0;
         }
@@ -91,7 +91,7 @@ class Bad_Apple_AppView extends WatchUi.View {
 
     function onShow() as Void {
         var animationTimer = new Timer.Timer();
-        animationTimer.start(method(:nextFrame),200,true);
+        animationTimer.start(method(:nextFrame),100,true);
         
 
     }

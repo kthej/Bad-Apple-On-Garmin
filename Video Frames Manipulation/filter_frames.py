@@ -24,10 +24,6 @@ def returnContents(folder):
 f""
 # Remove and Clear working folder to prepare for file addition
 
-
-
-
-
 # Video and Frames Configuration
 
 framerate = 10

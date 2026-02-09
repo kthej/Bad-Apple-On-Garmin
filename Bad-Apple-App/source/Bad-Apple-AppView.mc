@@ -7,7 +7,9 @@ Pretty cool right? What's even cooler is the fact that I wrote this all myself, 
 import Toybox.Graphics;
 import Toybox.WatchUi;
 var animationTimer;
+
 //Forgive me for this, I am a noob at Monkey C
+
 public var VideoFont0;
 public var VideoFont1;
 public var VideoFont2;

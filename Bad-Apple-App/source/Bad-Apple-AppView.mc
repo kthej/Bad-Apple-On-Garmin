@@ -104,29 +104,32 @@ class Bad_Apple_AppView extends WatchUi.View {
         View.onUpdate(dc);
         dc.clear();
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        var x = dc.getWidth()/2;
+        var y = dc.getHeight()/2;
+
         //Please forgive me, I am new t
-        if (selectSectionIndex == 0){dc.drawText(7,26,VideoFont0,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 1){dc.drawText(7,26,VideoFont1,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 2){dc.drawText(7,26,VideoFont2,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 3){dc.drawText(7,26,VideoFont3,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 4){dc.drawText(7,26,VideoFont4,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 5){dc.drawText(7,26,VideoFont5,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 6){dc.drawText(7,26,VideoFont6,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 7){dc.drawText(7,26,VideoFont7,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 8){dc.drawText(7,26,VideoFont8,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 9){dc.drawText(7,26,VideoFont9,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 10){dc.drawText(7,26,VideoFont10,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 11){dc.drawText(7,26,VideoFont11,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 12){dc.drawText(7,26,VideoFont12,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 13){dc.drawText(7,26,VideoFont13,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 14){dc.drawText(7,26,VideoFont14,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 15){dc.drawText(7,26,VideoFont15,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 16){dc.drawText(7,26,VideoFont16,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 17){dc.drawText(7,26,VideoFont17,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 18){dc.drawText(7,26,VideoFont18,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 19){dc.drawText(7,26,VideoFont19,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 20){dc.drawText(7,26,VideoFont20,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
-        else if(selectSectionIndex == 21){dc.drawText(7,26,VideoFont21,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_LEFT); }
+        if (selectSectionIndex == 0){dc.drawText(x,y,VideoFont0,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 1){dc.drawText(x,y,VideoFont1,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 2){dc.drawText(x,y,VideoFont2,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 3){dc.drawText(x,y,VideoFont3,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 4){dc.drawText(x,y,VideoFont4,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 5){dc.drawText(x,y,VideoFont5,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 6){dc.drawText(x,y,VideoFont6,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 7){dc.drawText(x,y,VideoFont7,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 8){dc.drawText(x,y,VideoFont8,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 9){dc.drawText(x,y,VideoFont9,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 10){dc.drawText(x,y,VideoFont10,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 11){dc.drawText(x,y,VideoFont11,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 12){dc.drawText(x,y,VideoFont12,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 13){dc.drawText(x,y,VideoFont13,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 14){dc.drawText(x,y,VideoFont14,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 15){dc.drawText(x,y,VideoFont15,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 16){dc.drawText(x,y,VideoFont16,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 17){dc.drawText(x,y,VideoFont17,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 18){dc.drawText(x,y,VideoFont18,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 19){dc.drawText(x,y,VideoFont19,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 20){dc.drawText(x,y,VideoFont20,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
+        else if(selectSectionIndex == 21){dc.drawText(x,y,VideoFont21,(33+selectFrameIndex).toChar().toString(),Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER); }
         
 
     }
